@@ -62,7 +62,7 @@
     background-size:cover;
 }
 .section-B-title-text{
-font-size: 45px;
+    font-size: 45px;
     color: var(--c-white);
     margin-left: 5%;
 
@@ -82,17 +82,18 @@ font-size: 45px;
         margin-bottom: 3%;
     }
     .button-section-B{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         text-decoration: none;
         color: var(--c-grey-dark);
         background-color: var(--c-white);
         height: 64px;
         width: 187px;
         border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+
+
 
     }
     .button-section-B:hover{
@@ -101,6 +102,50 @@ font-size: 45px;
     }
 /*--------------------------------Section-C-----------------------------------------*/
 
+    .section-C{
+        text-align: left;
+        margin-top: 15%;
+        padding: 0 8% 0 18%;
+    }
+    .background-section-C{
+        background-image: url(../media/backgroundtreepack.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 750px;
+        background-size:cover;
+    }
+    .section-C-title-text {
+        width: 394px
+    }
+    .section-C-description-text{
+        font-size: 20px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+    }
+    /*****************button******************/
+
+    .buttonBox-section-C{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+
+    .button-section-C{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+    }
+    .button-section-C:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
 }
 /*------------------------Desktops, large screens-----------------------------------*/
 
@@ -111,6 +156,12 @@ font-size: 45px;
     .cms-33-desktop-screens {
         flex: calc(1 / 3);
     }
+
+    .cms-50-desktop-screens{
+        flex: .5;
+    }
+
+
 
     .cms-66-desktop-screens {
         flex: calc(2 / 3);
@@ -177,7 +228,7 @@ font-size: 45px;
         margin-left: 5%;
 
     }
-    /*****************button******************/
+/*****************button******************/
 
     .buttonBox-section-B{
         display: flex;
@@ -204,6 +255,51 @@ font-size: 45px;
         background-color: var(--c_color-grey-dark);
     }
 /*--------------------------------Section-C-----------------------------------------*/
+    .section-C{
+        text-align: left;
+        margin-top: 15%;
+        padding: 0 8% 0 18%;
+    }
+    .background-section-C{
+        background-image: url(../media/backgroundtreepack.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 750px;
+        background-size:cover;
+    }
+    .section-C-title-text {
+        width: 394px
+    }
+    .section-C-description-text{
+        font-size: 20px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+    }
+    /*****************button******************/
+
+    .buttonBox-section-C{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+
+    .button-section-C{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+    }
+    .button-section-C:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+
 }
 
 /*-------------------------Small screens, laptops-----------------------------------*/
