@@ -7,6 +7,9 @@
     --c-Montserrat: var(--c_font-Montserrat);
 
 /*----------------------color-----------------------------*/
+    --c_color-white:#FFFFFF;
+    --c-white:var(--c_color-white);
+
     --c_color-red:#8B0000;
     --c-red:var(--c_color-red);
 
@@ -21,6 +24,13 @@
 
     --c_color-grey:#898A8A;
     --c-grey:var(--c_color-grey);
+
+    --с-light-grey-dark: #d3d3d3;
+    --c-light-grey:var(--с-light-grey-dark);
+
+
+    --c_color-grey-dark: #787879;
+    --c-grey-dark: var(--c_color-grey-dark);
 
 }
 

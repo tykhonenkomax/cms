@@ -4,8 +4,10 @@
 
 
 /*------------------------Extra large screens, TV-----------------------------------*/
+
 @media screen and (min-width:  1201px){
 
+/*--------------------------------Section-A-----------------------------------------*/
     .cms-50-xlarge-screens{
         flex: .5;
     }
@@ -51,11 +53,60 @@
         padding: 5%;
         max-height: 40px;
     }
+/*--------------------------------Section-B-----------------------------------------*/
+.background-section-B{
+    background-image: url(../media/staff_girl.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size:cover;
+}
+.section-B-title-text{
+font-size: 45px;
+    color: var(--c-white);
+    margin-left: 5%;
+
+}
+.section-B-description-text{
+    font-size: 20px;
+    color: var(--c-white);
+    margin-left: 5%;
+
+}
+    /*****************button******************/
+
+    .buttonBox-section-B{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .button-section-B{
+        display: inline-block;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .button-section-B:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-C-----------------------------------------*/
 
 }
 /*------------------------Desktops, large screens-----------------------------------*/
 
-@media screen and (min-width:  1025px) and(max-width: 1200px) {
+@media screen and (min-width:  1025px) and (max-width: 1200px) {
+
+/*--------------------------------Section-A-----------------------------------------*/
 
     .cms-33-desktop-screens {
         flex: calc(1 / 3);
@@ -83,7 +134,7 @@
     }
 
 
-    /*****************slider******************/
+/*****************slider******************/
 
     .slider-box-general{
         margin-top: 2%;
@@ -106,20 +157,176 @@
         padding: 5%;
         max-height: 40px;
     }
+/*--------------------------------Section-B-----------------------------------------*/
+    .background-section-B{
+        background-image: url(../media/staff_girl.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        background-size:cover;
+    }
+    .section-B-title-text{
+        font-size: 45px;
+        color: var(--c-white);
+        margin-left: 5%;
 
+    }
+    .section-B-description-text{
+        font-size: 20px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-B{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .button-section-B{
+        display: inline-block;
+        text-decoration: none;
+        color: var(--c_color-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        trransition: all .3s ease-in-out;
+    }
+    .button-section-B:hover{
+        color: var(--c-white);
+        background-color: var(--c_color-grey-dark);
+    }
+/*--------------------------------Section-C-----------------------------------------*/
 }
 
 /*-------------------------Small screens, laptops-----------------------------------*/
-@media screen and (min-width:  769px) and(max-width: 1024px){
+
+@media screen and (min-width:  769px) and (max-width: 1024px){
+
+/*--------------------------------Section-A-----------------------------------------*/
+    .cms-33-desktop-screens {
+        flex: calc(1 / 3);
+    }
+
+    .cms-66-desktop-screens {
+        flex: calc(2 / 3);
+    }
+
+    .section-A-img{
+        max-height: 640px;
+        width: 100%;
+    }
+
+    .section-A-title-text {
+        font-size: 80px;
+        margin: 1%;
+        color: var(--c-green-dark);
+
+    }
+    .section-A-description-text{
+        font-size: 25px;
+        margin: 1%;
+        color: var(--c-green-dark);
+    }
+
+
+/*****************slider******************/
+
+    .slider-box-general{
+        margin-top: 2%;
+        margin-left: 1%
+    }
+
+    .slider-img{
+        width: 100%;
+    }
+    .slider-title-text{
+        padding: 5%;
+        max-height: 30px;
+    }
+    .slider-description-text{
+        padding: 5%;
+        color: var(--c-green-dark);
+
+    }
+    .slider-title-text-logo-parts{
+        padding: 5%;
+        max-height: 40px;
+    }
+/*--------------------------------Section-B-----------------------------------------*/
+    .background-section-B{
+        background-image: url(../media/staff_girl.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        background-size:cover;
+    }
+    .section-B-title-text{
+        font-size: 45px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+    .section-B-description-text{
+        font-size: 20px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+
+/*****************button******************/
+
+    .buttonBox-section-B{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .button-section-B{
+        display: inline-block;
+        text-decoration: none;
+        color: var(--c_color-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        trransition: all .3s ease-in-out;
+    }
+    .button-section-B:hover{
+        color: var(--c-white);
+        background-color: var(--c_color-grey-dark);
+    }
+
+/*--------------------------------Section-C-----------------------------------------*/
 
 }
 /*-------------------------iPads, Tablets-------------------------------------------*/
-@media screen and (min-width:  481px) and(max-width: 768px){
+@media screen and (min-width:  481px) and (max-width: 768px){
+
+/*--------------------------------Section-A-----------------------------------------*/
+
+/*--------------------------------Section-B-----------------------------------------*/
+
+/*--------------------------------Section-C-----------------------------------------*/
 
 }
 /*--------------------------Mobile devices------------------------------------------*/
-@media screen and (min-width:  320px) and(max-width: 480px){
+@media screen and (min-width:  320px) and (max-width: 480px){
 
+/*--------------------------------Section-A-----------------------------------------*/
+
+/*--------------------------------Section-B-----------------------------------------*/
 }
 
 .opacity-50 {
