@@ -1,0 +1,90 @@
+:root {
+    --cms-grid-spacing: 1rem;
+}
+
+.cms-100, .cms-50-xlarge-screens .cms-50-desktop-screens .cms-50-laptops-screens .cms-50-iPads-tablets .cms-50-mobile-devises,
+.cms-33-xlarge-screens .cms-33-desktop-screens .cms-33-laptops-screens .cms-33-iPads-tablets .cms-33-mobile-devises,
+.cms-25-xlarge-screens .cms-25-desktop-screens .cms-25-laptops-screens .cms-25-iPads-tablets .cms-25-mobile-devises,
+.cms-66-xlarge-screens .cms-66-desktop-screens .cms-66-laptops-screens .cms-66-iPads-tablets .cms-66-mobile-devises,
+.cms-0 {
+    display: flex;
+    flex: 1;
+    flex-direction: initial;
+}
+
+.cms-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cms-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.cms-row + .cms-row {
+    margin-top: 1rem;
+}
+
+.cms-0 {
+    width: auto;
+    padding: 0;
+    flex: 0;
+}
+
+.cms-100 {
+    width: 100%;
+    flex: 1;
+}
+
+
+.cms-50-xlarge-screens .cms-50-desktop-screens .cms-50-laptops-screens .cms-50-iPads-tablets .cms-50-mobile-devises {
+    width: calc((100% -  1rem) / 2);
+    flex: .5;
+}
+
+
+
+.cms-33-xlarge-screens .cms-33-desktop-screens .cms-33-laptops-screens .cms-33-iPads-tablets .cms-33-mobile-devises {
+    width: calc((100% -  1rem) / 3);
+    flex: calc(1/3);
+}
+
+.cms-66-xlarge-screens .cms-66-desktop-screens .cms-66-laptops-screens .cms-66-iPads-tablets .cms-66-mobile-devises {
+    width: calc((100% - 1rem) / 3 * 2);
+    flex: calc(2/3);
+}
+
+.cms-25-xlarge-screens .cms-25-desktop-screens .cms-25-laptops-screens .cms-25-iPads-tablets .cms-25-mobile-devises {
+    width: calc((100% -  1rem) / 4);
+    flex: calc(1/4);
+}
+
+/*@media screen and (max-width: 640px) {*/
+/*    .cms-100, .cms-50, .cms-33, .cms-25, .cms-66, .cms-0 {*/
+/*        flex: 1;*/
+/*        width: 100%;*/
+/*        margin-left: 0 !important;*/
+/*        margin-top: var(--cms-grid-spacing, 1rem);*/
+/*        padding-left: 0 !important;*/
+/*        padding-right: 0 !important;*/
+/*        margin-right: 0 !important;*/
+/*    }*/
+
+/*    .cms-row {*/
+/*        flex-direction: column;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 960px) {*/
+/*    .cms-col-ipad {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .cms-col-ipad .cms-50, .cms-col-ipad .cms-33, .cms-col-ipad .cms-25,  .cms-col-ipad .cms-66,  .cms-col-ipad .cms-0, .cms-col-ipad .cms-100 {*/
+/*        margin-left: 0;*/
+/*        flex: 1*/
+/*    }*/
+/*}*/

@@ -1,0 +1,30 @@
+
+:root{
+
+/*------------------font-family---------------------------*/
+
+    --c_font-Montserrat: "Montserrat";
+    --c-Montserrat: var(--c_font-Montserrat);
+
+/*----------------------color-----------------------------*/
+    --c_color-red:#8B0000;
+    --c-red:var(--c_color-red);
+
+    --c_color-blue:#5878a4;
+    --c-blue:var(--c_color-blue);
+
+    --c_color-green-light:#628C67;
+    --c-green-light:var(--c_color-green-light);
+
+    --c_color-green-dark:#58726A;
+    --c-green-dark:var(--c_color-green-dark);
+
+    --c_color-grey:#898A8A;
+    --c-grey:var(--c_color-grey);
+
+}
+
+
+
+
+
