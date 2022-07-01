@@ -4,7 +4,6 @@
 
 
 /*------------------------Extra large screens, TV-----------------------------------*/
-
 @media screen and (min-width:  1201px){
 
 /*--------------------------------Section-A-----------------------------------------*/
@@ -250,10 +249,84 @@
         color: var(--c-white);
         background-color: var(--c-light-grey);
     }
+/*--------------------------------Section-F-----------------------------------------*/
+
+
+    .section-F-general-box{
+        margin-top: -7%;
+    }
+    .section-F-background-img {
+        text-align: center;
+        align-content: center;
+        max-width: 300px;
+        margin-left: 20%
+    }
+
+    .section-F-img-a{
+        height:200px;
+        width: 80%;
+        margin-left: 20%
+    }
+    .section-F-img-b{
+        height:200px;
+        width: 80%;
+        margin-left: 1%
+    }
+    .section-F-img-c{
+        height:200px;
+        width: 80%;
+        margin-left: 20%;
+
+    }
+    .section-F-img-d{
+        height:200px;
+        width: 80%;
+        margin-left: 1%;
+    }
+    .section-F-strip{
+        height: 4px;
+        width: 153px;
+        border-radius: 5px;
+        margin-left: 25%;
+    }
+    .section-F-title-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-F-description-text{
+        padding: 2% 8% 0 8%;
+
+    }
+/*****************button******************/
+
+    .buttonBox-section-F{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-F{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 42px;
+        width: 115px;
+        border-radius: 6px;
+        margin-bottom: 15%;
+    }
+
+    .button-section-F:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
 
 }
 /*------------------------Desktops, large screens-----------------------------------*/
-
 @media screen and (min-width:  1025px) and (max-width: 1200px) {
 
 /*--------------------------------Section-A-----------------------------------------*/
@@ -363,10 +436,9 @@
     .section-C{
         text-align: left;
         margin-top: 15%;
-        padding: 0 8% 0 18%;
+        padding: 0 18% 0 0%;
     }
     .background-section-C{
-        margin-top: 5%;
         background-image: url(../media/backgroundtreepack.webp);
         background-position: center;
         background-repeat: no-repeat;
@@ -508,11 +580,90 @@
         color: var(--c-white);
         background-color: var(--c-light-grey);
     }
+/*--------------------------------Section-F-----------------------------------------*/
+
+    .cms-row-section-F{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-F-general-box{
+        margin-top: -7%;
+        display: flex;
+        align-items: center;
+    }
+    .section-F-background-img {
+        text-align: center;
+        align-content: center;
+        max-width: 300px;
+        margin-left: 20%
+    }
+
+    .section-F-img-a{
+        height:200px;
+        width: 80%;
+        margin-left: 20%
+    }
+    .section-F-img-b{
+        height:200px;
+        width: 80%;
+        margin-left: 1%
+    }
+    .section-F-img-c{
+        height:200px;
+        width: 80%;
+        margin-left: 20%;
+
+    }
+    .section-F-img-d{
+        height:200px;
+        width: 80%;
+        margin-left: 1%;
+    }
+    .section-F-strip{
+        height: 4px;
+        width: 153px;
+        border-radius: 5px;
+        margin-left: 25%;
+    }
+    .section-F-title-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-F-description-text{
+        padding: 2% 8% 0 8%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-F{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-F{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 42px;
+        width: 115px;
+        border-radius: 6px;
+        margin-bottom: 15%;
+    }
+
+    .button-section-F:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
 
 }
-
 /*-------------------------Small screens, laptops-----------------------------------*/
-
 @media screen and (min-width:  769px) and (max-width: 1024px){
 
 /*--------------------------------Section-A-----------------------------------------*/
@@ -621,7 +772,7 @@
     .section-C{
         text-align: left;
         margin-top: 15%;
-        padding: 0 8% 0 18%;
+        padding: 0 18% 0 0%;
     }
     .background-section-C{
         background-image: url(../media/backgroundtreepack.webp);
