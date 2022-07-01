@@ -12,10 +12,19 @@
     flex-direction: initial;
 }
 
+/*.cms-row-xlarge-screens .cms-row-desktop-screens .cms-row-laptop-screens .cms-row-iPads-tablets .cms-row-mobile-devises {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.cms-col-xlarge-screens .cms-col-desktop-screens .cms-col-laptop-screens .cms-col-iPads-tablets .cms-col-mobile-devises {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
 .cms-row {
     display: flex;
     flex-direction: row;
-
 }
 
 .cms-col {

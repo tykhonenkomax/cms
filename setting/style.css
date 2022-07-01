@@ -22,6 +22,9 @@
     --c_color-green-dark:#58726A;
     --c-green-dark:var(--c_color-green-dark);
 
+    --c_color-green-light-dark:#9fb0ac;
+    --c_green-light:var(--c_color-green-light-dark);
+
     --c_color-grey:#898A8A;
     --c-grey:var(--c_color-grey);
 

@@ -251,7 +251,10 @@
     }
 /*--------------------------------Section-F-----------------------------------------*/
 
-
+.cms-row-xlarge-screens{
+    display: flex;
+    flex-direction: row;
+}
     .section-F-general-box{
         margin-top: -7%;
     }
@@ -321,6 +324,121 @@
     }
 
     .button-section-F:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-E-----------------------------------------*/
+
+
+    .section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-E {
+        margin-top: 5%;
+        background-image: url(../media/girs_communicate.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size: cover;
+    }
+    .section-E-title-text{
+        width: 476px;
+        margin-left: 5%;
+        margin-top: 8%;
+
+    }
+    .section-E-description-text{
+        font-size: 45px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+
+
+    }
+    .button-section-E:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-G-----------------------------------------*/
+
+    .background-section-G {
+        margin-top: 5%;
+        min-height: 750px;
+        background-color: var(--c_green-light);
+        position: relative;
+    }
+    .background-section-G-1{
+
+    }
+    .background-section-G-2{
+        margin-right: 60%;
+    }
+    .section-G-title-text {
+        min-width: 656px;
+
+    }
+    .section-G-description-text {
+        font-size: 16px;
+        color: var(--c_color-grey);
+        padding: 0 35% 0 15%;
+
+    }
+    .section-G-img-1{
+        margin-top: 5%;
+        max-width: 70%;
+        position: absolute;
+
+
+    }
+    .section-G-img-2{
+        max-width: 70%;
+        position: absolute;
+        margin-top: 10%;
+
+    }
+/*****************button******************/
+    .buttonBox-section-G {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 660px;
+    }
+    .button-section-G {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+        margin-left: 10%;
+    }
+    .button-section-G:hover{
         color: var(--c-white);
         background-color: var(--c-light-grey);
     }
@@ -582,15 +700,21 @@
     }
 /*--------------------------------Section-F-----------------------------------------*/
 
-    .cms-row-section-F{
+    .cms-section-F{
         display: flex;
-        flex-direction: row;
+        justify-content: center;
     }
+
+    .cms-col-xlarge-screens {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .section-F-general-box{
         margin-top: -7%;
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
     .section-F-background-img {
         text-align: center;
@@ -913,6 +1037,92 @@
 
     }
     .button-section-E:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-F-----------------------------------------*/
+    .cms-section-F{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cms-col-xlarge-screens {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section-F-general-box{
+        margin-top: -7%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-F-background-img {
+        text-align: center;
+        align-content: center;
+        max-width: 300px;
+        margin-left: 20%
+    }
+
+    .section-F-img-a{
+        height:200px;
+        width: 80%;
+        margin-left: 20%
+    }
+    .section-F-img-b{
+        height:200px;
+        width: 80%;
+        margin-left: 1%
+    }
+    .section-F-img-c{
+        height:200px;
+        width: 80%;
+        margin-left: 20%;
+
+    }
+    .section-F-img-d{
+        height:200px;
+        width: 80%;
+        margin-left: 1%;
+    }
+    .section-F-strip{
+        height: 4px;
+        width: 153px;
+        border-radius: 5px;
+        margin-left: 25%;
+    }
+    .section-F-title-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-F-description-text{
+        padding: 2% 8% 0 8%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-F{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-F{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 42px;
+        width: 115px;
+        border-radius: 6px;
+        margin-bottom: 15%;
+    }
+
+    .button-section-F:hover{
         color: var(--c-white);
         background-color: var(--c-light-grey);
     }
