@@ -105,7 +105,7 @@
     .section-C{
         text-align: left;
         margin-top: 15%;
-        padding: 0 8% 0 18%;
+        padding: 0 18% 0 0%;
     }
     .background-section-C{
         background-image: url(../media/backgroundtreepack.webp);
@@ -146,6 +146,111 @@
         color: var(--c-white);
         background-color: var(--c-light-grey);
     }
+/*--------------------------------Section-D-----------------------------------------*/
+
+    .section-D{
+        text-align: left;
+        margin-top: 15%;
+        padding: 0 18% 0 0%;
+    }
+    .background-section-D{
+        margin-top: 5%;
+        background-image: url(../media/grey.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size:cover;
+    }
+    .section-D-title-text{
+        font-size: 30px;
+        color: var(--c-white);
+        margin-left: 10%;
+
+    }
+    .section-D-description-text{
+        font-size: 16px;
+        color: var(--c-white);
+        margin-left: 10%;
+    }
+
+/*****************button******************/
+
+    .buttonBox-section-D{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+    .button-section-D{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-D:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-E-----------------------------------------*/
+
+    .section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-E {
+        margin-top: 5%;
+        background-image: url(../media/girs_communicate.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size: cover;
+    }
+    .section-E-title-text{
+        width: 476px;
+        margin-left: 5%;
+        margin-top: 8%;
+
+    }
+    .section-E-description-text{
+        font-size: 45px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+
+
+    }
+    .button-section-E:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+
 }
 /*------------------------Desktops, large screens-----------------------------------*/
 
@@ -217,7 +322,7 @@
         background-size:cover;
     }
     .section-B-title-text{
-        font-size: 45px;
+        font-size: 30px;
         color: var(--c-white);
         margin-left: 5%;
 
@@ -261,6 +366,7 @@
         padding: 0 8% 0 18%;
     }
     .background-section-C{
+        margin-top: 5%;
         background-image: url(../media/backgroundtreepack.webp);
         background-position: center;
         background-repeat: no-repeat;
@@ -299,6 +405,109 @@
         color: var(--c-white);
         background-color: var(--c-light-grey);
     }
+/*--------------------------------Section-D-----------------------------------------*/
+    .section-D{
+        text-align: left;
+        margin-top: 15%;
+        padding: 0 18% 0 0%;
+    }
+    .background-section-D{
+        margin-top: 5%;
+        background-image: url(../media/grey.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size:cover;
+    }
+    .section-D-title-text{
+        font-size: 25px;
+        color: var(--c-white);
+        margin-left: 10%;
+
+    }
+    .section-D-description-text{
+        font-size: 16px;
+        color: var(--c-white);
+        margin-left: 10%;
+    }
+
+    /*****************button******************/
+
+    .buttonBox-section-D{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+    .button-section-D{
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-D:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-E-----------------------------------------*/
+    .section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-E {
+        margin-top: 5%;
+        background-image: url(../media/girs_communicate.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size: cover;
+    }
+    .section-E-title-text{
+        width: 476px;
+        margin-left: 5%;
+        margin-top: 8%;
+
+    }
+    .section-E-description-text{
+        font-size: 45px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+
+
+    }
+    .button-section-E:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
 
 }
 
@@ -313,6 +522,10 @@
 
     .cms-66-desktop-screens {
         flex: calc(2 / 3);
+    }
+
+    .cms-50-laptops-screens{
+        flex: .5;
     }
 
     .section-A-img{
@@ -405,6 +618,153 @@
     }
 
 /*--------------------------------Section-C-----------------------------------------*/
+    .section-C{
+        text-align: left;
+        margin-top: 15%;
+        padding: 0 8% 0 18%;
+    }
+    .background-section-C{
+        background-image: url(../media/backgroundtreepack.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 750px;
+        background-size:cover;
+    }
+    .section-C-title-text {
+        width: 394px
+    }
+    .section-C-description-text{
+        font-size: 20px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+    }
+    /*****************button******************/
+
+    .buttonBox-section-C{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+
+    .button-section-C{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+    }
+    .button-section-C:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-D-----------------------------------------*/
+    .section-D{
+        text-align: left;
+        margin-top: 15%;
+        padding: 0 18% 0 0%;
+    }
+    .background-section-D{
+        margin-top: 5%;
+        background-image: url(../media/grey.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size:cover;
+    }
+    .section-D-title-text{
+        font-size: 25px;
+        color: var(--c-white);
+        margin-left: 10%;
+
+    }
+    .section-D-description-text{
+        font-size: 16px;
+        color: var(--c-white);
+        margin-left: 10%;
+    }
+
+    /*****************button******************/
+
+    .buttonBox-section-D{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+    .button-section-D{
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-D:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
+/*--------------------------------Section-E-----------------------------------------*/
+    .section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-E {
+        margin-top: 5%;
+        background-image: url(../media/girs_communicate.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        background-size: cover;
+    }
+    .section-E-title-text{
+        width: 476px;
+        margin-left: 5%;
+        margin-top: 8%;
+
+    }
+    .section-E-description-text{
+        font-size: 45px;
+        color: var(--c-white);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-E{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: var(--c-grey-dark);
+        background-color: var(--c-white);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+
+
+
+    }
+    .button-section-E:hover{
+        color: var(--c-white);
+        background-color: var(--c-light-grey);
+    }
 
 }
 /*-------------------------iPads, Tablets-------------------------------------------*/
