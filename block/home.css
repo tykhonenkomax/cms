@@ -386,15 +386,17 @@
 
     .background-section-G {
         margin-top: 5%;
-        min-height: 750px;
+        min-height: 850px;
         background-color: var(--c_green-light);
         position: relative;
+        z-index: 0;
     }
     .background-section-G-1 {
-
     }
     .background-section-G-2 {
         margin-right: 60%;
+        margin-top: 0;
+        margin-left: 15%;
     }
     .section-G-title-text {
         min-width: 656px;
@@ -407,16 +409,17 @@
 
     }
     .section-G-img-1 {
-        margin-top: 5%;
+        margin-top: 10%;
         max-width: 70%;
         position: absolute;
-
-
+        margin-left: -30%;
+        z-index: -1;
     }
     .section-G-img-2 {
         max-width: 70%;
         position: absolute;
         margin-top: 10%;
+        margin-left: -25%;
 
     }
 /*****************button******************/
@@ -436,6 +439,7 @@
         height: 64px;
         width: 187px;
         border-radius: 4px;
+        margin-top: 15%;
         margin-left: 10%;
     }
     .button-section-G:hover {
@@ -458,11 +462,36 @@
         margin-top: 20%;
     }
     .section-H-img-1 {
-        min-width: 50%;
+        min-width: 546px;
     }
     .section-H-img-2 {
         min-width: 604px;
     }
+
+
+    .buttonBox-section-H{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 660px;
+    }
+    .button-section-H {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-green-middle-dark);
+        background-color: var(--c-green-middle);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+        margin-left: 15%;
+    }
+    .button-section-H:hover {
+        color: var(--c-white);
+        background-color: var(--c-green-middle-dark);
+    }
+
 
 }
 /*------------------------Desktops, large screens-----------------------------------*/

@@ -19,6 +19,12 @@
     --c_color-green-light:#628C67;
     --c-green-light:var(--c_color-green-light);
 
+    --c_color-green-middle:#999E65;
+    --c-green-middle:var(--c_color-green-middle);
+
+    --c_color-green-middle-dark:#1f5125;
+    --c-green-middle-dark:var(--c_color-green-middle-dark);
+
     --c_color-green-dark:#58726A;
     --c-green-dark:var(--c_color-green-dark);
 
