@@ -91,9 +91,6 @@
         height: 64px;
         width: 187px;
         border-radius: 4px;
-
-
-
     }
     .button-section-B:hover{
         color: var(--c-white);
@@ -481,6 +478,120 @@
         color: var(--c-white);
         background-color: var(--c-green-middle-dark);
     }
+/*--------------------------------Section-I-----------------------------------------*/
+
+    .section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-I {
+        margin-top: 5%;
+        background-image: url(../media/UNiForm/whater.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 550px;
+        background-size: cover;
+    }
+    .background-section-I-1{
+        background: var(--c-white);
+        opacity: 0.8;
+        min-height:280px;
+        min-width: 257px;
+        margin-top: 5%;
+        padding: 5% 2% 5% 2%;
+        margin-left: 10%;
+    }
+    .section-I-title-text{
+        margin-left: 5%;
+        color: var(--c-green-dark);
+    }
+    .section-I-description-text{
+        font-size: 12px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-white);
+        background-color: var(--c_green-light);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-I:hover{
+        color: var(--c-white);
+        background-color: var(--c-grey-dark);
+    }
+/*--------------------------------Section-J-----------------------------------------*/
+
+    .section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-J {
+        margin-top: 5%;
+        background-color: #f3f2f2;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 550px;
+        background-size: cover;
+    }
+    .background-section-J-1{
+    }
+    .section-J-title-text{
+        max-width: 127px;
+        max-height: 50px;
+
+    }
+    .section-J-description-text{
+        font-size: 12px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-white);
+        background-color: var(--c_green-light);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-J:hover{
+        color: var(--c-white);
+        background-color: var(--c-grey-dark);
+    }
+
+
+
+
 
 
 }
@@ -924,6 +1035,64 @@
         color: var(--c-white);
         background-color: var(--c-green-middle-dark);
     }
+/*--------------------------------Section-I-----------------------------------------*/
+
+    .section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-I {
+        margin-top: 5%;
+        background-image: url(../media/UNiForm/whater.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 550px;
+        background-size: cover;
+    }
+    .background-section-I-1{
+        background: var(--c-white);
+        opacity: 0.8;
+        min-height:280px;
+        min-width: 257px;
+        margin-top: 5%;
+        padding: 5% 2% 5% 2%;
+        margin-left: 10%;
+    }
+    .section-I-title-text{
+        margin-left: 5%;
+        color: var(--c-green-dark);
+    }
+    .section-I-description-text{
+        font-size: 12px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-white);
+        background-color: var(--c_green-light);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-I:hover{
+        color: var(--c-white);
+        background-color: var(--c-grey-dark);
+    }
 }
 /*-------------------------Small screens, laptops-----------------------------------*/
 @media screen and (min-width:  769px) and (max-width: 1024px){
@@ -1362,6 +1531,64 @@
     .button-section-H:hover {
         color: var(--c-white);
         background-color: var(--c-green-middle-dark);
+    }
+/*--------------------------------Section-I-----------------------------------------*/
+
+    .section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-I {
+        margin-top: 5%;
+        background-image: url(../media/UNiForm/whater.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 550px;
+        background-size: cover;
+    }
+    .background-section-I-1{
+        background: var(--c-white);
+        opacity: 0.8;
+        min-height:280px;
+        min-width: 257px;
+        margin-top: 5%;
+        padding: 5% 2% 5% 2%;
+        margin-left: 10%;
+    }
+    .section-I-title-text{
+        margin-left: 5%;
+        color: var(--c-green-dark);
+    }
+    .section-I-description-text{
+        font-size: 12px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-I{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-white);
+        background-color: var(--c_green-light);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-I:hover{
+        color: var(--c-white);
+        background-color: var(--c-grey-dark);
     }
 
 }
