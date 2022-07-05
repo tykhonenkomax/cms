@@ -548,27 +548,74 @@
         background-color: #f3f2f2;
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 550px;
+        min-height: 400px;
         background-size: cover;
     }
-    .background-section-J-1{
+    .background-section-J-1 {
+        margin-top: 5%;
+        margin-left: 100px;
     }
-    .section-J-title-text{
+    .section-J-title-text {
         max-width: 127px;
         max-height: 50px;
 
     }
-    .section-J-description-text{
+    .section-J-description-text {
         font-size: 12px;
         color: var(--c-green-dark);
-        margin-left: 5%;
-
+        font-size: 16px;
     }
+    .section-I-img-phoneNumber {
+        height: 18px;
+        margin-right: 2%;
+    }
+    .section-I-img-dog {
+        height: 18px;
+        margin-right: 2%;
+        font-size: 16px;
+    }
+    .section-J-href{
+        text-decoration: none;
+        color: var(--c_color-grey-dark);
+        font-size: 16px;
+    }
+
+    .background-section-J-2 {
+        margin-top: 5%;
+    }
+    .background-section-J-2-1 {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: 100px;
+    }
+.section-J-input {
+    width: 364px;
+    height: 55px;
+    background: var(--c_color-green-light-dark);
+    border-radius: 5px;
+}
+
+.background-section-J-2-2 {
+    display: flex;
+    margin-left: 100px;
+}
+.background-section-J-2-3 {
+    margin-left: 100px;
+}
+
+.section-J-logo-socialNetwork{
+
+}
+
+
     /*****************button******************/
 
     .buttonBox-section-J{
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         text-align: center;
         margin-bottom: 3%;
@@ -588,11 +635,6 @@
         color: var(--c-white);
         background-color: var(--c-grey-dark);
     }
-
-
-
-
-
 
 }
 /*------------------------Desktops, large screens-----------------------------------*/
@@ -1093,6 +1135,104 @@
         color: var(--c-white);
         background-color: var(--c-grey-dark);
     }
+/*--------------------------------Section-J-----------------------------------------*/
+
+    .section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-J {
+        margin-top: 5%;
+        background-color: #f3f2f2;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        background-size: cover;
+    }
+    .background-section-J-1 {
+        margin-top: 5%;
+    }
+    .section-J-title-text {
+        max-width: 127px;
+        max-height: 50px;
+
+    }
+    .section-J-description-text {
+        font-size: 12px;
+        color: var(--c-green-dark);
+        font-size: 16px;
+    }
+    .section-I-img-phoneNumber {
+        height: 18px;
+        margin-right: 2%;
+    }
+    .section-I-img-dog {
+        height: 18px;
+        margin-right: 2%;
+        font-size: 16px;
+    }
+    .section-J-href{
+        text-decoration: none;
+        color: var(--c_color-grey-dark);
+        font-size: 16px;
+    }
+
+    .background-section-J-2 {
+        margin-top: 5%;
+    }
+    .background-section-J-2-1 {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: 150px;
+    }
+    .section-J-input {
+        width: 364px;
+        height: 55px;
+        background: var(--c_color-green-light-dark);
+        border-radius: 5px;
+    }
+
+    .background-section-J-2-2 {
+        display: flex;
+        margin-left: 150px;
+    }
+    .background-section-J-2-3 {
+        margin-left: 100px;
+    }
+
+    .section-J-logo-socialNetwork{
+
+    }
+
+
+    /*****************button******************/
+
+    .buttonBox-section-J{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-white);
+        background-color: var(--c_green-light);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-J:hover{
+        color: var(--c-white);
+        background-color: var(--c-grey-dark);
+    }
 }
 /*-------------------------Small screens, laptops-----------------------------------*/
 @media screen and (min-width:  769px) and (max-width: 1024px){
@@ -1587,6 +1727,104 @@
         border-radius: 4px;
     }
     .button-section-I:hover{
+        color: var(--c-white);
+        background-color: var(--c-grey-dark);
+    }
+/*--------------------------------Section-J-----------------------------------------*/
+
+    .section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-section-J {
+        margin-top: 5%;
+        background-color: #f3f2f2;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        background-size: cover;
+    }
+    .background-section-J-1 {
+        margin-top: 5%;
+    }
+    .section-J-title-text {
+        max-width: 127px;
+        max-height: 50px;
+
+    }
+    .section-J-description-text {
+        font-size: 12px;
+        color: var(--c-green-dark);
+        font-size: 16px;
+    }
+    .section-I-img-phoneNumber {
+        height: 18px;
+        margin-right: 2%;
+    }
+    .section-I-img-dog {
+        height: 18px;
+        margin-right: 2%;
+        font-size: 16px;
+    }
+    .section-J-href{
+        text-decoration: none;
+        color: var(--c_color-grey-dark);
+        font-size: 16px;
+    }
+
+    .background-section-J-2 {
+        margin-top: 5%;
+    }
+    .background-section-J-2-1 {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: 150px;
+    }
+    .section-J-input {
+        width: 364px;
+        height: 55px;
+        background: var(--c_color-green-light-dark);
+        border-radius: 5px;
+    }
+
+    .background-section-J-2-2 {
+        display: flex;
+        margin-left: 150px;
+    }
+    .background-section-J-2-3 {
+        margin-left: 100px;
+    }
+
+    .section-J-logo-socialNetwork{
+
+    }
+
+
+    /*****************button******************/
+
+    .buttonBox-section-J{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .button-section-J{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--c-white);
+        background-color: var(--c_green-light);
+        height: 64px;
+        width: 187px;
+        border-radius: 4px;
+    }
+    .button-section-J:hover{
         color: var(--c-white);
         background-color: var(--c-grey-dark);
     }
