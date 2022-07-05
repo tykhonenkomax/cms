@@ -6,6 +6,9 @@
     --c_font-Montserrat: "Montserrat";
     --c-Montserrat: var(--c_font-Montserrat);
 
+    --c_LittleMissPriss:"LittleMissPriss";
+    --c-LittleMissPriss:var(--c_LittleMissPriss);
+
 /*----------------------color-----------------------------*/
     --c_color-white:#FFFFFF;
     --c-white:var(--c_color-white);
@@ -25,6 +28,9 @@
     --c_color-green-middle-dark:#1f5125;
     --c-green-middle-dark:var(--c_color-green-middle-dark);
 
+    --c_green-middle--light:#3f6b62;
+    --c-green-middle-light: var(--c_green-middle--light);
+
     --c_color-green-dark:#58726A;
     --c-green-dark:var(--c_color-green-dark);
 
@@ -40,9 +46,12 @@
 
     --c_color-grey-dark: #787879;
     --c-grey-dark: var(--c_color-grey-dark);
+
+    --c_color-light-middle-grey:#f3f2f2;
+    --c-grey-light-middle: var(--c_color-light-middle-grey);
+
+
 }
-
-
 
 
 
