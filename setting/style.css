@@ -1,4 +1,12 @@
 
+.gb-landing-container {
+    font-family: var(--c-Montserrat);
+}
+@font-face {
+    font-family: "LittleMissPriss";
+    src: url(../Fonts/little-miss-priss/LittleMissPriss.ttf) format('ttf')
+}
+
 :root{
 
 /*------------------font-family---------------------------*/
