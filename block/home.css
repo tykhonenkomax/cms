@@ -1,9 +1,14 @@
 
+.gb-landing-container {
+    font-family: var(--c-Montserrat);
+}
 
 /*------------------------Extra large screens, TV-----------------------------------*/
 @media screen and (min-width:  1201px){
 
 /*--------------------------------Section-A-----------------------------------------*/
+
+
     .cms-50-xlarge-screens{
         flex: .5;
     }
@@ -25,6 +30,12 @@
         color: var(--c-green-dark);
     }
 
+    .section-A-background{
+        background-image: url(../media/baum_edited.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 
 /*****************slider******************/
 
@@ -83,16 +94,17 @@
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        /*color: var(--c_color-white);*/
+        /*background-color: var(--c-green-dark);*/
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+        /*border-radius: 4px;*/
     }
-    .button-section-B:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
-    }
+
+    /*.button-section-B:hover{*/
+    /*    box-shadow: 5px 5px 15px #1d1f22;*/
+    /*    color: var(--c-white);*/
+    /*}*/
 /*--------------------------------Section-C-----------------------------------------*/
 
     .section-C{
@@ -128,16 +140,15 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
 
     }
     .button-section-C:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-D-----------------------------------------*/
 
@@ -178,15 +189,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
+
         height: 64px;
         width: 187px;
-        border-radius: 4px;
     }
     .button-section-D:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-E-----------------------------------------*/
 
@@ -240,8 +250,7 @@
 
     }
     .button-section-E:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-F-----------------------------------------*/
 
@@ -309,17 +318,15 @@
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
         height: 42px;
         width: 115px;
-        border-radius: 6px;
         margin-bottom: 15%;
     }
 
-    .button-section-F:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+    .button-section-F:hover {
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-E-----------------------------------------*/
 
@@ -363,18 +370,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
-
-
-
+        border-radius: 0;
     }
-    .button-section-E:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+    .button-section-E:hover {
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-G-----------------------------------------*/
 
@@ -385,8 +388,7 @@
         position: relative;
 
     }
-    /*.background-section-G-1 {*/
-    /*}*/
+
     .background-section-G-2 {
         margin-top: 0;
     }
@@ -417,16 +419,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         margin-left: 10%;
     }
     .button-section-G:hover {
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 
 /*--------------------------------Section-H-----------------------------------------*/
@@ -464,16 +464,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-green-middle-dark);
-        background-color: var(--c-green-middle);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         margin-left: 20%;
     }
     .button-section-H:hover {
-        color: var(--c-white);
-        background-color: var(--c-green-middle-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-I-----------------------------------------*/
 
@@ -523,121 +521,26 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-white);
-        background-color: var(--c_green-light);
+        color: var(--c_color-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
     }
     .button-section-I:hover{
-        color: var(--c-white);
-        background-color: var(--c-grey-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
-/*--------------------------------Section-J-----------------------------------------*/
-
-    .section-J{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .background-section-J {
-        margin-top: 5%;
-        background-color: #f3f2f2;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 400px;
-        background-size: cover;
-    }
-    .background-section-J-1 {
-        margin-top: 5%;
-        margin-left: 100px;
-    }
-    .section-J-title-text {
-        max-width: 127px;
-        max-height: 50px;
-
-    }
-    .section-J-description-text {
-        font-size: 12px;
-        color: var(--c-green-dark);
-        font-size: 16px;
-    }
-    .section-I-img-phoneNumber {
-        height: 18px;
-        margin-right: 2%;
-    }
-    .section-I-img-dog {
-        height: 18px;
-        margin-right: 2%;
-        font-size: 16px;
-    }
-    .section-J-href{
-        text-decoration: none;
-        color: var(--c_color-grey-dark);
-        font-size: 16px;
-    }
-
-    .background-section-J-2 {
-        margin-top: 5%;
-    }
-    .background-section-J-2-1 {
-        margin-top: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        margin-left: 100px;
-    }
-.section-J-input {
-    width: 364px;
-    height: 55px;
-    background: var(--c_color-green-light-dark);
-    border-radius: 5px;
-}
-
-.background-section-J-2-2 {
-    display: flex;
-    margin-left: 100px;
-}
-.background-section-J-2-3 {
-    margin-left: 100px;
-}
-
-.section-J-logo-socialNetwork{
-
-}
-
-
-    /*****************button******************/
-
-    .buttonBox-section-J{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 3%;
-    }
-    .button-section-J{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: var(--c-white);
-        background-color: var(--c_green-light);
-        height: 64px;
-        width: 187px;
-        border-radius: 4px;
-    }
-    .button-section-J:hover{
-        color: var(--c-white);
-        background-color: var(--c-grey-dark);
-    }
-
 }
 /*------------------------Desktops, large screens-----------------------------------*/
 @media screen and (min-width:  1025px) and (max-width: 1200px) {
 
 /*--------------------------------Section-A-----------------------------------------*/
+
+    .section-A-background{
+        background-image: url(../media/baum_edited.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
     .cms-33-desktop-screens {
         flex: calc(1 / 3);
@@ -725,11 +628,11 @@
     .button-section-B{
         display: inline-block;
         text-decoration: none;
-        color: var(--c_color-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -737,8 +640,7 @@
         trransition: all .3s ease-in-out;
     }
     .button-section-B:hover{
-        color: var(--c-white);
-        background-color: var(--c_color-grey-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-C-----------------------------------------*/
     .section-C{
@@ -774,16 +676,15 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
 
     }
     .button-section-C:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-D-----------------------------------------*/
     .section-D{
@@ -824,15 +725,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
     }
     .button-section-D:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-E-----------------------------------------*/
     .section-E{
@@ -875,18 +775,17 @@
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
 
 
 
     }
     .button-section-E:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-F-----------------------------------------*/
 
@@ -963,17 +862,15 @@
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 42px;
         width: 115px;
-        border-radius: 6px;
         margin-bottom: 15%;
     }
 
     .button-section-F:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 
 /*--------------------------------Section-G-----------------------------------------*/
@@ -1016,16 +913,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         margin-left: 10%;
     }
     .button-section-G:hover {
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 
     /*--------------------------------Section-H-----------------------------------------*/
@@ -1063,16 +958,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-green-middle-dark);
-        background-color: var(--c-green-middle);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         margin-left: 20%;
     }
     .button-section-H:hover {
-        color: var(--c-white);
-        background-color: var(--c-green-middle-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-I-----------------------------------------*/
 
@@ -1123,118 +1016,26 @@
         align-items: center;
         text-decoration: none;
         color: var(--c-white);
-        background-color: var(--c_green-light);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
     }
     .button-section-I:hover{
-        color: var(--c-white);
-        background-color: var(--c-grey-dark);
-    }
-/*--------------------------------Section-J-----------------------------------------*/
-
-    .section-J{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .background-section-J {
-        margin-top: 5%;
-        background-color: #f3f2f2;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 400px;
-        background-size: cover;
-    }
-    .background-section-J-1 {
-        margin-top: 5%;
-    }
-    .section-J-title-text {
-        max-width: 127px;
-        max-height: 50px;
-
-    }
-    .section-J-description-text {
-        font-size: 12px;
-        color: var(--c-green-dark);
-        font-size: 16px;
-    }
-    .section-I-img-phoneNumber {
-        height: 18px;
-        margin-right: 2%;
-    }
-    .section-I-img-dog {
-        height: 18px;
-        margin-right: 2%;
-        font-size: 16px;
-    }
-    .section-J-href{
-        text-decoration: none;
-        color: var(--c_color-grey-dark);
-        font-size: 16px;
-    }
-
-    .background-section-J-2 {
-        margin-top: 5%;
-    }
-    .background-section-J-2-1 {
-        margin-top: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        margin-left: 150px;
-    }
-    .section-J-input {
-        width: 364px;
-        height: 55px;
-        background: var(--c_color-green-light-dark);
-        border-radius: 5px;
-    }
-
-    .background-section-J-2-2 {
-        display: flex;
-        margin-left: 150px;
-    }
-    .background-section-J-2-3 {
-        margin-left: 100px;
-    }
-
-    .section-J-logo-socialNetwork{
-
-    }
-
-
-    /*****************button******************/
-
-    .buttonBox-section-J{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 3%;
-    }
-    .button-section-J{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: var(--c-white);
-        background-color: var(--c_green-light);
-        height: 64px;
-        width: 187px;
-        border-radius: 4px;
-    }
-    .button-section-J:hover{
-        color: var(--c-white);
-        background-color: var(--c-grey-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 }
 /*-------------------------Small screens, laptops-----------------------------------*/
 @media screen and (min-width:  769px) and (max-width: 1024px){
 
 /*--------------------------------Section-A-----------------------------------------*/
+
+    .section-A-background{
+        background-image: url(../media/baum_edited.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     .cms-33-desktop-screens {
         flex: calc(1 / 3);
     }
@@ -1320,11 +1121,10 @@
     .button-section-B{
         display: inline-block;
         text-decoration: none;
-        color: var(--c_color-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1332,8 +1132,7 @@
         trransition: all .3s ease-in-out;
     }
     .button-section-B:hover{
-        color: var(--c-white);
-        background-color: var(--c_color-grey-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 
 /*--------------------------------Section-C-----------------------------------------*/
@@ -1370,16 +1169,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
 
     }
     .button-section-C:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-D-----------------------------------------*/
     .section-D{
@@ -1420,15 +1217,13 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
     }
     .button-section-D:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-E-----------------------------------------*/
     .section-E{
@@ -1471,18 +1266,16 @@
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
 
 
 
     }
     .button-section-E:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 /*--------------------------------Section-F-----------------------------------------*/
     .cms-section-F{
@@ -1558,17 +1351,15 @@
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 42px;
         width: 115px;
-        border-radius: 6px;
         margin-bottom: 15%;
     }
 
     .button-section-F:hover{
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 
     /*--------------------------------Section-G-----------------------------------------*/
@@ -1611,16 +1402,14 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-grey-dark);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         margin-left: 10%;
     }
     .button-section-G:hover {
-        color: var(--c-white);
-        background-color: var(--c-light-grey);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
 
     /*--------------------------------Section-H-----------------------------------------*/
@@ -1658,11 +1447,10 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: var(--c-green-middle-dark);
-        background-color: var(--c-green-middle);
+        color: var(--c-white);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
         margin-left: 20%;
     }
     .button-section-H:hover {
@@ -1718,114 +1506,14 @@
         align-items: center;
         text-decoration: none;
         color: var(--c-white);
-        background-color: var(--c_green-light);
+        background-color: var(--c-green-dark);
         height: 64px;
         width: 187px;
-        border-radius: 4px;
+
     }
     .button-section-I:hover{
-        color: var(--c-white);
-        background-color: var(--c-grey-dark);
+        box-shadow: 5px 5px 15px #1d1f22;
     }
-/*--------------------------------Section-J-----------------------------------------*/
-
-    .section-J{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .background-section-J {
-        margin-top: 5%;
-        background-color: #f3f2f2;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 400px;
-        background-size: cover;
-    }
-    .background-section-J-1 {
-        margin-top: 5%;
-    }
-    .section-J-title-text {
-        max-width: 127px;
-        max-height: 50px;
-
-    }
-    .section-J-description-text {
-        font-size: 12px;
-        color: var(--c-green-dark);
-        font-size: 16px;
-    }
-    .section-I-img-phoneNumber {
-        height: 18px;
-        margin-right: 2%;
-    }
-    .section-I-img-dog {
-        height: 18px;
-        margin-right: 2%;
-        font-size: 16px;
-    }
-    .section-J-href{
-        text-decoration: none;
-        color: var(--c_color-grey-dark);
-        font-size: 16px;
-    }
-
-    .background-section-J-2 {
-        margin-top: 5%;
-    }
-    .background-section-J-2-1 {
-        margin-top: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        margin-left: 150px;
-    }
-    .section-J-input {
-        width: 364px;
-        height: 55px;
-        background: var(--c_color-green-light-dark);
-        border-radius: 5px;
-    }
-
-    .background-section-J-2-2 {
-        display: flex;
-        margin-left: 150px;
-    }
-    .background-section-J-2-3 {
-        margin-left: 100px;
-    }
-
-    .section-J-logo-socialNetwork{
-
-    }
-
-
-    /*****************button******************/
-
-    .buttonBox-section-J{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 3%;
-    }
-    .button-section-J{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: var(--c-white);
-        background-color: var(--c_green-light);
-        height: 64px;
-        width: 187px;
-        border-radius: 4px;
-    }
-    .button-section-J:hover{
-        color: var(--c-white);
-        background-color: var(--c-grey-dark);
-    }
-
 }
 /*-------------------------iPads, Tablets-------------------------------------------*/
 @media screen and (min-width:  481px) and (max-width: 768px){
