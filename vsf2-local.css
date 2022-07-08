@@ -203,6 +203,27 @@
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
     --bs-body-bg: #fff;
+
+    --c_button-width:250px;
+    --button-width: var(--c_button-width);
+    --c_button-heigh:64px;
+    --button-height:var(--c_button-heigh);
+    --c_button-display:flex;
+    --button-display:var(--c_button-display);
+    --c_button-transition: background .8s;
+    --button-transition:var(--c_button-transition);
+    --c_button-text-transform: uppercase;
+    --button-text-transform: var(--c_button-text-transform);
+    --c_button-wrap: wrap;
+    --button-wrap:var(--c_button-wrap);
+    --c_button-cursor:pointer;
+    --button-cursor:var(--c_button-cursor);
+    --c_button-text-decoration:none;
+    --button-text-decoration:var(--c_button-text-decoration);
+    --c_button-border-radius:0;
+    --button-border-radius:var(--c_button-border-radius);
+
+
 }
 
 body, html {
@@ -221,6 +242,7 @@ body {
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+
 }
 
 body {
@@ -241,16 +263,20 @@ a {
     color: var(--c-link);
 }
 
+
+
+
+
 .sf-button {
     --link-color: var(--button-color,var(--c-light-variant));
     box-sizing: border-box;
     position: relative;
     width: var(--button-width);
-    width: var(--button-size,var(--button-width));
+    width: var(--button-size, var(--button-width));
     height: var(--button-height);
-    height: var(--button-size,var(--button-height));
+    height: var(--button-size, var(--button-height));
     display: flex;
-    display: var(--button-display,flex);
+    display: var(--button-display, flex);
     align-items: center;
     justify-content: center;
     padding: var(--button-padding,var(--spacer-sm) var(--spacer-base));
@@ -259,20 +285,22 @@ a {
     background: var(--c-primary);
     background: var(--button-background,var(--c-primary));
     transition: background .8s;
-    transition: var(--button-transition,background .8s);
+    transition: var(--button-transition, background .8s);
+
     background-position: 50%;
     text-transform: uppercase;
     text-transform: var(--button-text-transform, uppercase);
+    text-decoration: none;
     -webkit-text-decoration: var(--button-text-decoration);
     text-decoration: var(--button-text-decoration);
     cursor: pointer;
-    cursor: var(--button-cursor,pointer);
+    cursor: var(--button-cursor, pointer);
     border-radius: 0;
-    border-radius: var(--button-border-radius,0);
+    border-radius: var(--button-border-radius, 0);
     white-space: nowrap;
     white-space: var(--button-wrap,nowrap);
     font: var(--font-weight--semibold) var(--font-size--base)/1.2 var(--font-family--secondary);
-    font: var(--button-font,var(--button-font-weight, var(--font-weight--semibold)) var(--button-font-size, var(--font-size--base))/var(--button-font-line-height,1.2) var(--button-font-family,var(--font-family--secondary)));
+    font: var(--button-font, var(--button-font-weidht, var(--font-weight--semibold)) var(--button-font-size, var(--font-size--base))/var(--button-font-line-height, 1.2) var(--button-font-family, var(--font-family--secondary)));
     border: var(--button-border, var(--button-border-style, solid) var(--button-border-color, var(--c-primary)));
     border-width: 0;
     border-width: var(--button-border-width,0);
