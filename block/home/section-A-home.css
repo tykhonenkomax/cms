@@ -1,0 +1,129 @@
+*{font-family: var(--c-Montserrat)}
+/*--------------------------------Section-A-----------------------------------------*/
+@media screen and (min-width:  1024px){
+
+    .cms-50-xlarge-screens{
+        flex: .5;
+    }
+
+    .section-A-img{
+        max-height: 640px;
+        width: 100%;
+    }
+
+    .section-A-title-text {
+        font-size: 80px;
+        margin: 10px;
+        color: var(--c-green-dark);
+
+    }
+    .section-A-description-text{
+        font-size: 25px;
+        margin: 10px;
+        color: var(--c-green-dark);
+    }
+
+    .section-A-background{
+        background-image: url(../../media/baum_edited.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /*****************slider******************/
+
+    .slider-box-general{
+        margin-top: 5px;
+        margin-left: 5px
+    }
+
+    .slider-img{
+        width: 620px;
+    }
+    .slider-title-text{
+        padding: 10px;
+        height: 30px;
+        box-sizing: content-box;
+    }
+    .slider-description-text{
+        padding: 10px;
+        color: var(--c-green-dark);
+
+    }
+    .slider-title-text-logo-parts{
+        padding: 10px;
+        max-height: 40px;
+    }
+}
+
+
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+
+    .section-A-background{
+        background-image: url(../../media/baum_edited.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .cms-33-desktop-screens {
+        flex: calc(1 / 3);
+    }
+
+    .cms-50-desktop-screens{
+        flex: .5;
+    }
+
+
+
+    .cms-66-desktop-screens {
+        flex: calc(2 / 3);
+    }
+
+    .section-A-img{
+        max-height: 640px;
+        width: 100%;
+    }
+
+    .section-A-title-text {
+        font-size: 80px;
+        margin: 1%;
+        color: var(--c-green-dark);
+
+    }
+    .section-A-description-text{
+        font-size: 25px;
+        margin: 1%;
+        color: var(--c-green-dark);
+    }
+
+
+    /*****************slider******************/
+
+    .slider-box-general{
+        margin-top: 5px;
+        margin-left: 5px
+    }
+
+    .slider-img{
+        width: 620px;
+    }
+    .slider-title-text{
+        padding: 10px;
+        height: 30px;
+        box-sizing: content-box;
+    }
+    .slider-description-text{
+        padding: 10px;
+        color: var(--c-green-dark);
+
+    }
+    .slider-title-text-logo-parts{
+        padding: 10px;
+        max-height: 40px;
+    }
+}
+
+@media screen and (max-width: 639px){
+
+}

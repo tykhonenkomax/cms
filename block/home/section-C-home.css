@@ -1,0 +1,86 @@
+/*--------------------------------Section-C-----------------------------------------*/
+@media screen and (min-width:  1024px){
+
+    .cms-33-xlarge-screens{
+        flex: .33;
+    }
+    .cms-66-xlarge-screens{
+        flex: .66;
+    }
+
+    .section-C{
+        margin-top: 40px;
+    }
+    .background-section-C{
+        background-image: url(../../media/backgroundtreepack.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 750px;
+        background-size:cover;
+    }
+    .section-C-title-text {
+        width: 394px;
+        margin-left: 80px;
+    }
+    .section-C-description-text{
+        font-size: 20px;
+        color: var(--c-green-dark);
+        margin-left: 80px;
+        padding-right: 20px;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-C{
+        display: flex;
+        align-items: start;
+        margin-left: 80px;
+    }
+
+    .button-section-C {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .section-C{
+        text-align: left;
+        margin-top: 25px;
+        padding: 0 10px 0 0;
+    }
+    .background-section-C{
+        background-image: url(../../media/backgroundtreepack.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 750px;
+        background-size:cover;
+    }
+    .section-C-title-text {
+        width: 394px
+    }
+    .section-C-description-text{
+        font-size: 20px;
+        color: var(--c-green-dark);
+        margin-left: 20px;
+    }
+    /*****************button******************/
+
+    .buttonBox-section-C{
+        display: flex;
+        align-items: start;
+        margin-left: 8%;
+    }
+
+    .button-section-C {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 639px){
+
+}

@@ -1,0 +1,122 @@
+/*--------------------------------Section-G-----------------------------------------*/
+@media screen and (min-width:  1024px){
+
+    .cms-row-desktop-screens{
+        flex-direction: row;
+    }
+
+    .cms-33-xlarge-screens{
+        flex: .33;
+    }
+    .cms-66-xlarge-screens{
+        flex: .66;
+    }
+
+    .background-section-G {
+        margin-top: 50px;
+        min-height: 450px;
+        background-color: var(--c_green-light);
+        position: relative;
+
+    }
+
+    .background-section-G-2 {
+        margin-top: 0;
+    }
+    .section-G-title-text {
+        min-width: 358px;
+
+    }
+    .section-G-description-text {
+        font-size: 16px;
+        color: var(--c_color-grey);
+        margin-left: 20px;
+
+
+    }
+    .section-G-img-1 {
+        margin-top: 10px;
+        width: 100%;
+
+    }
+    /*****************button******************/
+    .buttonBox-section-G {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .button-section-G {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .cms-row-xlarge-screens{
+        flex-direction: column;
+    }
+
+    .cms-33-xlarge-screens{
+        flex: .33;
+    }
+    .cms-66-xlarge-screens{
+        flex: .66;
+    }
+
+    .background-section-G {
+        margin-top: 50px;
+        min-height: 450px;
+        background-color: var(--c_green-light);
+        position: relative;
+
+    }
+
+    .background-section-G-2 {
+        margin-top: 0;
+    }
+    .section-G-title-text {
+        width: 340px;
+        margin-left: 60px;
+
+    }
+    .section-G-description-text {
+        font-size: 16px;
+        color: var(--c_color-grey);
+        margin-left: 80px;
+
+
+
+    }
+    .section-G-img-1 {
+        margin-top: 10px;
+        width:98%;
+        margin-left: 1%;
+
+
+    }
+    /*****************button******************/
+    .buttonBox-section-G {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .button-section-G {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 639px){
+
+}

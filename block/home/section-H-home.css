@@ -1,0 +1,116 @@
+/*--------------------------------Section-H-----------------------------------------*/
+@media screen and (min-width:  1024px){
+
+    .background-section-H {
+        margin-top: 50px;
+        height: 750px;
+        background-color: var(--c-white);
+
+
+    }
+    .section-H-description-text {
+        font-size: 16px;
+        color: var(--c_color-grey);
+
+
+    }
+    .section-H-1{
+        display: flex;
+        align-items: center;
+    }
+    .section-H-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-H-img-1 {
+        width: 546px;
+        margin-top: 80px;
+
+    }
+    .section-H-img-2 {
+        width: 604px;
+        margin-top: -100px;
+    }
+
+
+    .buttonBox-section-H{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 660px;
+
+    }
+    .button-section-H {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .cms-row-xlarge-screens{
+        flex-direction: column;
+    }
+
+    .cms-33-xlarge-screens{
+        flex: .33;
+    }
+    .cms-66-xlarge-screens{
+        flex: .66;
+    }
+    .background-section-H {
+        margin-top: 50px;
+        min-height: 750px;
+        background-color: var(--c-white);
+
+    }
+    .section-H-description-text {
+        font-size: 16px;
+        color: var(--c_color-grey);
+
+
+    }
+    .section-H-1{
+        display: flex;
+        align-items: center;
+    }
+    .section-H-2{
+        display: flex;
+        align-items: center;
+    }
+    .section-H-img-1 {
+        width: 546px;
+        margin-top: 80px;
+
+    }
+    .section-H-img-2 {
+        width: 604px;
+        margin-top: -100px;
+    }
+
+
+    .buttonBox-section-H{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 660px;
+
+    }
+    .button-section-H {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+
+    }
+}
+@media screen and (max-width: 639px){
+
+}
