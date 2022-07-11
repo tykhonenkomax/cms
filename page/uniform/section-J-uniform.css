@@ -1,0 +1,49 @@
+/*--------------------------------Section-J-----------------------------------------*/
+@media screen and (min-width:  1024px){
+
+    .background-section-J-uniForm{
+        background-color: var(--c_background-light-grey);
+        height: 600px;
+}
+    .section-J-description-uniform-1{
+        margin-top: 50px;
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-description-uniform-2{
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-description-uniform-3{
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-uniform-img-1{
+        height: 272px;
+        width: 272px;
+        border-radius: 50%;
+    }
+    .section-J-uniform-img-2{
+        height: 272px;
+        width: 272px;
+        border-radius: 50%;
+    }
+    .cms-50-desktop-screens-1{
+       margin-top: -65px;
+        text-align: center;
+
+    }
+    .cms-50-desktop-screens-2{
+        margin-top: 70px;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+}

@@ -1,12 +1,14 @@
 /*--------------------------------Section-A-----------------------------------------*/
 @media screen and (min-width:  1024px){
     .background-section-A-uniForm {
-        margin-top: 5%;
-        background: var(--c-grey-light-middle);
+        margin-top: 10px;
+        background: var(--c-white);
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 650px;
+        min-height: 550px;
         background-size: cover;
+        display: flex;
+        justify-content: center;
     }
 
     .background-section-A-uniForm-1{
@@ -14,7 +16,6 @@
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        margin-left: 100px;
 
     }
     .section-A-title-text-1-uniForm {
@@ -39,6 +40,44 @@
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
+    .background-section-A-uniForm {
+        margin-top: 10px;
+        background: var(--c-white);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 550px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background-section-A-uniForm-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+    }
+    .section-A-title-text-1-uniForm {
+        font-size: 60px;
+        margin: 0;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-A-title-text-2-uniForm {
+        font-size: 60px;
+        margin: 0;
+        color: var(--c_green-middle--light);
+        opacity: .2;
+        text-decoration: line-through;
+        font-family: var(--c-Montserrat);
+    }
+    .section-A-description-text-1-uniForm {
+        font-size: 16px;
+        letter-spacing: 7px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
 }
 @media screen and (max-width: 639px){
 }

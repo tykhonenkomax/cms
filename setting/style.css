@@ -44,6 +44,9 @@
     --c_LittleMissPriss: "LittleMissPriss";
     --c-LittleMissPriss:var(--c_LittleMissPriss);
 
+    --c_font-Loved-by-the-King:"Loved by the King";
+    --c-Loved-by-the-King: var(--c_font-Loved-by-the-King);
+
 /*---------------------cms-color-----------------------------*/
     --c_color-white:#FFFFFF;
     --c-white:var(--c_color-white);
@@ -84,6 +87,12 @@
 
     --c_color-light-middle-grey:#f3f2f2;
     --c-grey-light-middle: var(--c_color-light-middle-grey);
+
+    --c_letter-color:#616363;
+    --c-letter-green-grey:var(--c_letter-color);
+
+    --c_background-light-grey:#dbdbdb;
+    --c_background-light-grey: var(--c_background-light-grey);
 
 }
 

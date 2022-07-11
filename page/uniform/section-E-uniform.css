@@ -1,0 +1,44 @@
+/*--------------------------------Section-E-----------------------------------------*/
+@media screen and (min-width:  1024px){
+    .cms-33-desktop-screens{
+        flex: .33;
+    }
+    .cms-66-desktop-screens{
+        flex: .66;
+    }
+
+    .background-section-E-uniForm {
+        background-color: var(--c_green-middle--light);
+        height: 445px;
+        display: flex;
+        opacity: .8;
+    }
+    .section-E-uniForm-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-E-uniForm-2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-E-title-text-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 25px;
+        text-align: start;
+    }
+    .section-E-description-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 16px;
+    }
+
+
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+}

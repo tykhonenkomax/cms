@@ -1,0 +1,45 @@
+/*--------------------------------Section-B-----------------------------------------*/
+@media screen and (min-width:  1024px){
+
+    .background-section-B-uniForm {
+        margin-top: 10px;
+        background: var(--c_color-white);
+        background-position: center;
+        min-height: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-B-img-box {
+        position: relative;
+        z-index: 100;
+        margin-top: 50px;
+    }
+    .section-B-img-1 {
+        height: 1230px;
+    }
+
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .background-section-B-uniForm {
+        margin-top: 10px;
+        background: var(--c_color-white);
+        background-position: center;
+        min-height: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-B-img-box {
+        position: relative;
+        z-index: 100;
+        margin-top: 50px;
+    }
+    .section-B-img-1 {
+        height: 1230px;
+    }
+
+}
+@media screen and (max-width: 639px){
+}

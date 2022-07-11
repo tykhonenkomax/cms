@@ -117,11 +117,7 @@
         min-height: 100%;
         background-color: var(--c_green-light);
         display: flex;
-
-
-
     }
-
     .section-G-title-text {
         width: 70%;
         margin-left: 5px;
@@ -130,9 +126,6 @@
         font-size: 16px;
         margin-left: 5px;
         color: var(--c_color-grey);
-
-
-
 
     }
     .section-G-img-1 {
