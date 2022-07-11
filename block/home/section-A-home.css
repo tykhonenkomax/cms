@@ -41,17 +41,14 @@
         width: 620px;
     }
     .slider-title-text{
-        padding: 10px;
         height: 30px;
         box-sizing: content-box;
     }
     .slider-description-text{
-        padding: 10px;
         color: var(--c-green-dark);
 
     }
     .slider-title-text-logo-parts{
-        padding: 10px;
         max-height: 40px;
     }
 }
@@ -93,7 +90,7 @@
     }
     .section-A-description-text{
         font-size: 25px;
-        margin: 1%;
+        margin: 10px;
         color: var(--c-green-dark);
     }
 
@@ -109,21 +106,62 @@
         width: 620px;
     }
     .slider-title-text{
-        padding: 10px;
         height: 30px;
         box-sizing: content-box;
     }
     .slider-description-text{
-        padding: 10px;
         color: var(--c-green-dark);
 
     }
     .slider-title-text-logo-parts{
-        padding: 10px;
         max-height: 40px;
-    }
-}
+    }}
 
 @media screen and (max-width: 639px){
 
+    .section-A-background{
+        background-image: url(../../media/baum_edited.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .section-A-img{
+        max-height: 640px;
+        width: 100%;
+    }
+
+    .section-A-title-text {
+        font-size: 45px;
+        margin: 10px;
+        color: var(--c-green-dark);
+
+    }
+    .section-A-description-text{
+        font-size: 25px;
+        margin: 10px;
+        color: var(--c-green-dark);
+    }
+
+
+    /*****************slider******************/
+
+    .slider-box-general{
+        margin-top: 5px;
+        margin-left: 5px
+    }
+
+    .slider-img{
+        width: 100%;
+    }
+    .slider-title-text{
+        height: 30px;
+        box-sizing: content-box;
+    }
+    .slider-description-text{
+        color: var(--c-green-dark);
+
+    }
+    .slider-title-text-logo-parts{
+        max-height: 40px;
+    }
 }

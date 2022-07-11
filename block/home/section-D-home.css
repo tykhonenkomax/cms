@@ -65,21 +65,20 @@
     .section-D-title-text{
         font-size: 30px;
         color: var(--c-white);
-        margin-left: 80px;
+        margin-left: 200px;
 
     }
     .section-D-description-text{
         font-size: 16px;
         color: var(--c-white);
-        margin-left: 10%;
+        margin-left: 200px;
     }
-
     /*****************button******************/
 
     .buttonBox-section-D{
         display: flex;
         align-items: start;
-        margin-left: 80px;
+        margin-left: 200px;
     }
     .button-section-D {
         display: flex;
@@ -90,5 +89,48 @@
 }
 
 @media screen and (max-width: 639px){
+    .section-D{
+        text-align: left;
+        margin-top: 25px;
+        padding: 15px;
+        display: flex;
 
+    }
+    .background-section-D{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-image: url(../../media/grey_2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size:cover;
+    }
+    .section-D-title-text{
+        font-size: 20px;
+        color: var(--c-white);
+
+
+    }
+    .section-D-description-text{
+        font-size: 16px;
+        color: var(--c-white);
+
+
+    }
+
+    /*****************button******************/
+
+    .buttonBox-section-D{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .button-section-D {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
 }

@@ -108,4 +108,54 @@
     }
 }
     @media screen and (max-width: 639px) {
+        .section-I{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .background-section-I {
+            margin-top: 5%;
+            background-image: url(../../media/UNiForm/whater.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 550px;
+            background-size: cover;
+        }
+        .background-section-I-1{
+            background: var(--c-white);
+            opacity: 0.8;
+            min-height:280px;
+            min-width: 257px;
+            margin-top: 5%;
+            padding: 5% 2% 5% 2%;
+            margin-left: 10%;
+        }
+        .section-I-title-text{
+            margin-left: 5%;
+            color: var(--c-green-dark);
+        }
+        .section-I-description-text{
+            font-size: 12px;
+            color: var(--c-green-dark);
+            margin-left: 5%;
+
+        }
+        /*****************button******************/
+
+        .buttonBox-section-I{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 3%;
+        }
+        .button-section-I {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            height: 64px;
+            width: 187px;
+        }
 }

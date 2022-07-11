@@ -83,4 +83,42 @@
 }
 @media screen and (max-width: 639px){
 
+    .section-C{
+        text-align: left;
+        margin-top: 25px;
+        padding: 15px;
+    }
+    .background-section-C{
+        margin-top: 20px;
+        display: flex;
+        background-image: url(../../media/pack_with_tree_cut.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size:cover;
+    }
+    .section-C-title-text {
+        width: 294px;
+        margin-left: 5%;
+    }
+    .section-C-description-text{
+        font-size: 13px;
+        color: var(--c-green-dark);
+        margin-left: 5%;
+
+    }
+    /*****************button******************/
+
+    .buttonBox-section-C{
+        display: flex;
+        align-items: start;
+        margin-left: 20%;
+    }
+
+    .button-section-C {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
 }

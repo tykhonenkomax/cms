@@ -113,4 +113,55 @@
 }
 @media screen and (max-width: 639px){
 
+    .background-section-H {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 50px;
+        min-height: 750px;
+        background-color: var(--c-white);
+
+    }
+    .section-H-description-text {
+        font-size: 16px;
+        color: var(--c_color-grey);
+
+
+    }
+    .section-H-1{
+        display: flex;
+        align-items: center;
+    }
+    .section-H-2{
+        display: flex;
+        align-items: center;
+    }
+    .section-H-img-1 {
+        width: 80%;
+        margin-top: 80px;
+
+    }
+    .section-H-img-2 {
+        width: 80%;
+        margin-top: -80px;
+    }
+
+
+    .buttonBox-section-H{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 660px;
+
+    }
+    .button-section-H {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+
+    }
 }
