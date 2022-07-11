@@ -1,0 +1,28 @@
+@media screen and (min-width:  1024px){
+.background-section-M-uniForm{
+    height: 724px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+    .background-section-M-uniForm-1{
+        height: 429px;
+        width: 328px;
+        justify-content: center;
+        align-content: center;
+    }
+    .section-M-title-text-uniform{
+        font-family: var(--c_font-Montserrat);
+        font-size: 45px;
+        color: var(--c-green-middle-light);
+    }
+    .section-M-description-text-uniform{
+        font-family: var(--c_font-Montserrat);
+        font-size: 16px;
+        color: var(--c-green-middle-light);
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+}

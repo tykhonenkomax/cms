@@ -1,11 +1,13 @@
 /*--------------------------------Section-D-----------------------------------------*/
 @media screen and (min-width:  1024px){
-    .background-section-K-uniForm{
-        background-image: url(../uniform/media/1.webp);
-        height: 424px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:cover;
+
+.background-section-L-uniForm{
+    display: flex;
+    background-color: #FFFFFF;
+}
+    .section-L-uniform-img-1{
+        justify-content: center;
+        align-content: center;
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
