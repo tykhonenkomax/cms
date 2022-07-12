@@ -26,6 +26,8 @@
         font-family: var(--c-Montserrat);
         letter-spacing:8px;
         margin-bottom: 140px;
+        text-wrap: normal;
+        text-align: center;
     }
 
     .button-section-H-goodServices{
@@ -43,8 +45,92 @@
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
+    .background-section-H-goodServices{
+        background-image: url(../goodservices/media/22.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 548px;
+        background-size:cover;
+    }
+    .section-H-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .section-H-title-text-goodServices{
+        font-size: 80px;
+        color: var(--c-white);
+        font-family: var(--c-Montserrat);
+        font-weight:bold;
+        margin-bottom: 10px;
+    }
+    .section-H-description-text-goodServices{
+        font-size: 25px;
+        color: var(--c-white);
+        font-family: var(--c-Montserrat);
+        letter-spacing:8px;
+        margin-bottom: 140px;
+        text-wrap: normal;
+        text-align: center;
+    }
+
+    .button-section-H-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+        border-radius: 0;
+        background: #FFFFFF;
+        font-family: var(--c-Montserrat);
+        color: var(--c-green-middle-dark);
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 639px){
+    .background-section-H-goodServices{
+        background-image: url(../goodservices/media/22.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 548px;
+        background-size:cover;
+    }
+    .section-H-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .section-H-title-text-goodServices{
+        font-size: 45px;
+        color: var(--c-white);
+        font-family: var(--c-Montserrat);
+        font-weight:bold;
+        margin-bottom: 10px;
+    }
+    .section-H-description-text-goodServices{
+        font-size: 16px;
+        color: var(--c-white);
+        font-family: var(--c-Montserrat);
+        letter-spacing:8px;
+        margin-bottom: 140px;
+        text-wrap: normal;
+        text-align: center;
+    }
+
+    .button-section-H-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 64px;
+        width: 187px;
+        border-radius: 0;
+        background: #FFFFFF;
+        font-family: var(--c-Montserrat);
+        color: var(--c-green-middle-dark);
+        font-size: 16px;
+    }
 }

@@ -1,0 +1,41 @@
+
+@media screen and (min-width:  1024px){
+    .background-section-D-goodConnect{
+        background-image: url(../goodconnect/media/5.png);
+        height: 686px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .section-D-goodConnect-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .redLetter{
+        color: darkred;
+    }
+    .section-D-title-text{
+        font-size: 30px;
+        font-family: var(--c-Montserrat);
+        color: #707070;
+    }
+    .section-D-goodConnect-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-D-description-text{
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: var(--c-Montserrat);
+        color: #707070;
+        line-height:30px;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+
+}

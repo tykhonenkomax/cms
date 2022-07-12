@@ -1,0 +1,23 @@
+
+@media screen and (min-width:  1024px){
+    .section-B-goodConnect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-B-title-text-1-goodConnect{
+        font-family: var(--c_font-Montserrat);
+        font-size: 25px;
+        color: #707070;
+        text-wrap: normal;
+        text-align: center;
+        margin: 0;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+
+}

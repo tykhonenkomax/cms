@@ -1,10 +1,56 @@
 
 @media screen and (min-width:  1024px){
+
+    .wrapper{
+        flex-wrap: wrap;
+    }
     .background-section-J-goodServices{
-margin-top: 50px;
+        margin-top: 50px;
     }
     .section-J-goodServices{
+    }
+    .section-J-goodServices-1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 5px;
         background: #dbdbdb;
+    }
+    .section-J-title-text-goodServices{
+        font-size: 80px;
+        color: #898a8a;
+        font-family: var(--c-Montserrat);
+        font-weight:bold;
+    }
+    .section-J-description-text-goodServices{
+        font-size: 16px;
+        color: #898a8a;
+        font-family: var(--c-Montserrat);
+        margin-bottom: 140px;
+    }
+    .section-J-goodServices-2{
+        background-image: url(../../page/goodservices/media/11062b_b9abbd9e13a9459db58a6baa340377e7f000.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .section-J-img-goodServices{
+        max-height: 100%;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .wrapper{
+        flex-wrap: wrap;
+    }
+
+    .background-section-J-goodServices{
+        margin-top: 50px;
+    }
+
+    .section-J-goodServices{
+        background: #dbdbdb;
+        max-height: 684px;
     }
     .section-J-goodServices-1{
         display: flex;
@@ -24,7 +70,7 @@ margin-top: 50px;
         font-family: var(--c-Montserrat);
         margin-bottom: 140px;
     }
-    .section-I-goodServices-2{
+    .section-J-goodServices-2{
 
     }
     .section-J-img-goodServices{
@@ -32,9 +78,44 @@ margin-top: 50px;
 
     }
 }
-@media screen and (min-width:  640px) and (max-width: 1023px) {
-
-}
 @media screen and (max-width: 639px){
+    .wrapper{
+        flex-wrap: wrap;
+    }
 
+    .background-section-J-goodServices{
+        margin-top: 50px;
+    }
+
+    .section-J-goodServices{
+        background: #dbdbdb;
+        max-height: 684px;
+    }
+    .section-J-goodServices-1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 5px;
+    }
+    .section-J-title-text-goodServices{
+        font-size: 45px;
+        color: #898a8a;
+        font-family: var(--c-Montserrat);
+        font-weight:bold;
+    }
+    .section-J-description-text-goodServices{
+        font-size: 16px;
+        color: #898a8a;
+        font-family: var(--c-Montserrat);
+        margin-bottom: 140px;
+        text-wrap: normal;
+        text-align: start;
+    }
+    .section-J-goodServices-2{
+
+    }
+    .section-J-img-goodServices{
+        max-height: 100%;
+
+    }
 }

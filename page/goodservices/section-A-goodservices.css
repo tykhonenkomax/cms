@@ -16,8 +16,33 @@
 
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
+    .cms-50-desktop-screens{
+        flex: .5;
+    }
+    .section-A-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .section-A-goodServices-img-1{
+        max-height: 68px;
+        max-width: 267px;
+    }
 }
 @media screen and (max-width: 639px){
+    .cms-50-desktop-screens{
+        flex: .5;
+    }
+    .section-A-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-A-goodServices-img-1{
+        max-height: 68px;
+        max-width: 267px;
+    }
 
 }

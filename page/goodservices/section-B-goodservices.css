@@ -19,7 +19,40 @@
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
+    .section-B-title-text-1-goodServices{
+        font-size: 80px;
+        font-family: var(--c-Montserrat);
+        color: var(--c_green-light);
+        margin: 0;
+        opacity: .5;
+        text-decoration:line-through;
+        font-weight: bold;
+    }
+    .section-B-title-text-2-goodServices{
+        font-size: 80px;
+        font-family: var(--c-Montserrat);
+        color: var(--c_green-light);
+        margin: 0;
+        font-weight: bold;
+    }
 }
 @media screen and (max-width: 639px){
 
+    .section-B-title-text-1-goodServices{
+        font-size: 65px;
+        font-family: var(--c-Montserrat);
+        color: var(--c_green-light);
+        margin: 0;
+        opacity: .5;
+        text-decoration:line-through;
+        font-weight: bold;
+    }
+    .section-B-title-text-2-goodServices{
+        font-size: 65px;
+        font-family: var(--c-Montserrat);
+        color: var(--c_green-light);
+        margin: 0;
+        font-weight: bold;
+    }
 }
+
