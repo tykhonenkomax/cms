@@ -27,6 +27,12 @@
     flex-direction: row;
 }
 
+.cms-row-desktop-screens{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .cms-col {
     display: flex;
     flex-direction: column;

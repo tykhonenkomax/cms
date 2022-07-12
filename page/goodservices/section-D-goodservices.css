@@ -1,0 +1,66 @@
+
+@media screen and (min-width:  1024px){
+    .background-section-D-goodServices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-D-goodServices-1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    .section-C-title-img-1-goodServices{
+        max-height: 12px;
+        max-width: 9px;
+        margin-right: 15px;
+    }
+    .section-C-title-text-1-goodServices{
+        font-size: 16px;
+        font-family: var(--c-Montserrat);
+        color: #707070;
+        margin: 0;
+        letter-spacing:10px;
+    }
+    .section-D-goodServices-2{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    .section-C-title-img-2-goodServices{
+        max-height: 12px;
+        max-width: 9px;
+        margin-right: 15px;
+    }
+    .section-C-title-text-2-goodServices{
+        font-size: 16px;
+        font-family: var(--c-Montserrat);
+        color: #707070;
+        margin: 0;
+        letter-spacing:10px;
+    }
+
+    .section-D-goodServices-3{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    .section-C-title-img-3-goodServices{
+        max-height: 12px;
+        max-width: 9px;
+        margin-right: 15px;
+    }
+    .section-C-title-text-3-goodServices{
+        font-size: 16px;
+        font-family: var(--c-Montserrat);
+        color: #707070;
+        margin: 0;
+        letter-spacing:10px;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+
+}

@@ -80,4 +80,42 @@
     }
 }
 @media screen and (max-width: 639px){
+    .background-section-A-uniForm {
+        margin-top: 10px;
+        background: var(--c-white);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 350px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background-section-A-uniForm-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+    }
+    .section-A-title-text-1-uniForm {
+        font-size: 60px;
+        margin: 0;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-A-title-text-2-uniForm {
+        font-size: 60px;
+        margin: 0;
+        color: var(--c_green-middle--light);
+        opacity: .2;
+        text-decoration: line-through;
+        font-family: var(--c-Montserrat);
+    }
+    .section-A-description-text-1-uniForm {
+        font-size: 16px;
+        letter-spacing: 7px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
 }

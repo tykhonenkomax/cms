@@ -1,13 +1,6 @@
 /*--------------------------------Section-D-----------------------------------------*/
 @media screen and (min-width:  1024px){
 
-    .cms-33-desktop-screens{
-        flex: .33;
-    }
-    .cms-66-desktop-screens{
-        flex: .66;
-    }
-
 .background-section-D-uniForm {
     background-color: var(--c_green-middle--light);
     height: 466px;
@@ -36,7 +29,76 @@
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
+    .cms-row-mobile-devises{
+        flex-direction: column;
+    }
+    .background-section-D-uniForm {
+        background-color: var(--c_green-middle--light);
+        height: 766px;
+        display: flex;
+    }
+    .section-D-uniForm-1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-D-uniForm-2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-D-title-text-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 25px;
+        text-align: start;
+        margin-left: 10px;
+    }
+    .section-D-description-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 16px;
 
+    }
 }
 @media screen and (max-width: 639px){
+
+    .cms-row-mobile-devises{
+        flex-direction: column;
+    }
+    .background-section-D-uniForm {
+        background-color: var(--c_green-middle--light);
+        height: 866px;
+        display: flex;
+    }
+    .section-D-uniForm-img-1{
+        width: 80%;
+}
+    .section-D-uniForm-1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 430px;
+    }
+    .section-D-uniForm-2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-D-title-text-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 25px;
+        text-align: start;
+        margin-left: 10px;
+    }
+    .section-D-description-uniform {
+
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 13px;
+
+
+
+    }
 }

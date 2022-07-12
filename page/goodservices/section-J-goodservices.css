@@ -1,0 +1,40 @@
+
+@media screen and (min-width:  1024px){
+    .background-section-J-goodServices{
+margin-top: 50px;
+    }
+    .section-J-goodServices{
+        background: #dbdbdb;
+    }
+    .section-J-goodServices-1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 5px;
+    }
+    .section-J-title-text-goodServices{
+        font-size: 80px;
+        color: #898a8a;
+        font-family: var(--c-Montserrat);
+        font-weight:bold;
+    }
+    .section-J-description-text-goodServices{
+        font-size: 16px;
+        color: #898a8a;
+        font-family: var(--c-Montserrat);
+        margin-bottom: 140px;
+    }
+    .section-I-goodServices-2{
+
+    }
+    .section-J-img-goodServices{
+        max-height: 100%;
+
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 639px){
+
+}

@@ -1,12 +1,11 @@
 /*--------------------------------Section-D-----------------------------------------*/
 @media screen and (min-width:  1024px){
-    .cms-33-desktop-screens{
-        flex: .33;
+    .revers_obj_1{
+        order: 1;
     }
-    .cms-66-desktop-screens{
-        flex: .66;
+    .revers_obj_2{
+        order: 2;
     }
-
     .background-section-G-uniForm {
         background-color: var(--c_green-middle--light);
         height: 470px;
@@ -36,7 +35,84 @@
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
-
+    .revers_obj_1{
+        order: 2;
+    }
+    .revers_obj_2{
+        order: 1;
+    }
+    .cms-row-mobile-devises{
+        flex-direction: column;
+    }
+    .background-section-G-uniForm {
+        background-color: var(--c_green-middle--light);
+        height: 650px;
+        display: flex;
+        opacity: .8;
+    }
+    .section-G-uniForm-1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-G-uniForm-2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-G-title-text-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 25px;
+        text-align: start;
+        margin-left: 10px;
+    }
+    .section-G-description-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 16px;
+        margin-left: 10px;
+    }
 }
 @media screen and (max-width: 639px){
+    .revers_obj_1{
+        order: 2;
+    }
+    .revers_obj_2{
+        order: 1;
+    }
+    .cms-row-mobile-devises{
+        flex-direction: column;
+    }
+    .background-section-G-uniForm {
+        background-color: var(--c_green-middle--light);
+        height: 650px;
+        display: flex;
+        opacity: .8;
+    }
+    .section-G-uniForm-img-1{
+
+    }
+    .section-G-uniForm-1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-G-uniForm-2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .section-G-title-text-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 25px;
+        text-align: start;
+        margin-left: 10px;
+    }
+    .section-G-description-uniform {
+        color: var(--c-white);
+        font-family: var(--c_font-Montserrat);
+        font-size: 13px;
+    }
 }

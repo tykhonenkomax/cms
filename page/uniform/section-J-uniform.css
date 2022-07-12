@@ -1,9 +1,17 @@
 /*--------------------------------Section-J-----------------------------------------*/
 @media screen and (min-width:  1024px){
 
+    .revers_obj_1{
+        order: 1;
+    }
+    .revers_obj_2{
+        order: 2;
+    }
+
     .background-section-J-uniForm{
         background-color: var(--c_background-light-grey);
-        height: 500px;
+        height: 650px;
+        display: flex;
 }
     .section-J-description-uniform-1{
         margin-top: 50px;
@@ -44,6 +52,113 @@
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
+    .revers_obj_1{
+        order: 2;
+    }
+    .revers_obj_2{
+        order: 1;
+    }
+
+    .cms-row-laptop-screens{
+        display: flex;
+        flex-direction: column;
+    }
+    .background-section-J-uniForm{
+        margin-top: 80px;
+        background-color: var(--c_background-light-grey);
+        height: 650px;
+        display: flex;
+        background-size:cover;
+    }
+    .section-J-description-uniform-1{
+        margin-top: 50px;
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-description-uniform-2{
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-description-uniform-3{
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-uniform-img-1{
+        height: 272px;
+        width: 272px;
+        border-radius: 50%;
+    }
+    .section-J-uniform-img-2{
+        height: 272px;
+        width: 272px;
+        border-radius: 50%;
+    }
+    .cms-50-desktop-screens-1{
+        margin-top: -25px;
+        text-align: center;
+
+    }
+    .cms-50-desktop-screens-2{
+        margin-top: 20px;
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 639px){
+    .revers_obj_1{
+        order: 2;
+    }
+    .revers_obj_2{
+        order: 1;
+    }
+
+    .cms-row-laptop-screens{
+        display: flex;
+        flex-direction: column;
+    }
+    .background-section-J-uniForm{
+        margin-top: 80px;
+        background-color: var(--c_background-light-grey);
+        height: 750px;
+        display: flex;
+        background-size:cover;
+    }
+    .section-J-description-uniform-1{
+        margin-top: 50px;
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-description-uniform-2{
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-description-uniform-3{
+        font-size: 16px;
+        color: var(--c_green-middle--light);
+        font-family: var(--c-Montserrat);
+    }
+    .section-J-uniform-img-1{
+        height: 172px;
+        width: 172px;
+        border-radius: 50%;
+    }
+    .section-J-uniform-img-2{
+        height: 172px;
+        width: 172px;
+        border-radius: 50%;
+    }
+    .cms-50-desktop-screens-1{
+        margin-top: -25px;
+        text-align: center;
+
+    }
+    .cms-50-desktop-screens-2{
+        margin-top: 20px;
+        text-align: center;
+    }
 }
