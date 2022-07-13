@@ -155,6 +155,15 @@
     .cms-row-mobile-devises{
         flex-direction: row;
     }
+
+    .section-F-general-box-services .cms-row .cms-col img {
+        max-width: 150px;
+    }
+
+    .section-F-general-box-services .cms-row .cms-col h3 {
+        font-size: 20px;
+    }
+
     .wrapper{
         flex-wrap: wrap;
         display: flex;
@@ -167,7 +176,6 @@
         margin-left: 10px;
         text-align: center;
         align-content: center;
-        max-width: 300px;
 
     }
     .section-F-background-img-b-services {
@@ -178,24 +186,22 @@
     }
 
     .section-F-img-a-services{
-        height:50%;
-
+        margin-left: auto;
     }
     .section-F-img-b-services{
-        height:100%;
     }
     .section-F-img-c-services{
-        height:100%;
-
+        margin-left: auto;
     }
     .section-F-img-d-services{
-        height:100%;
+        height: 150px;
     }
     .section-F-strip-services{
         height: 4px;
         width: 50%;
-        margin-left: 25%;
         border-radius: 5px;
+        margin: 0 auto;
+
 
     }
     .section-F-title-text-services{
@@ -204,7 +210,7 @@
         font-family: var(--c_font-Montserrat);
     }
     .section-F-description-text-services{
-        padding: 20px 20px 0 18px;
+        padding: 2% 8% 0 8%;
         font-family: var(--c_font-Montserrat);
 
     }
@@ -214,6 +220,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
 
     }
     .button-section-F-services{
@@ -224,6 +232,7 @@
         text-decoration: none;
         height: 42px;
         width: 150px;
+        margin-bottom: 20px;
         color: var(--c-green-middle-dark);
         font-family: var(--c_font-Montserrat);
     }

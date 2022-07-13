@@ -1,3 +1,4 @@
+/*--------------------------------Section-F-----------------------------------------*/
 @media screen and (min-width: 1024px){
 
     .wrapper{
@@ -22,6 +23,7 @@
         align-content: center;
         width: 300px;
         height: 550px;
+
     }
 
     .section-F-img-a{
@@ -73,13 +75,13 @@
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
-    .wrapper{
 
+    .wrapper{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
-    }
 
+    }
     .section-F-general-box{
         margin-top: -7%;
     }
@@ -147,24 +149,34 @@
     }
 }
 @media screen and (max-width: 639px){
-    .cms-row-mobile-devises{
+    .cms-row {
         flex-direction: row;
     }
+
+    .section-F-general-box .cms-row .cms-col img {
+        max-width: 150px;
+    }
+
+    .section-F-general-box .cms-row .cms-col h3 {
+        font-size: 20px;
+    }
+
     .wrapper{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
     }
-    .section-F-general-box{
+
+    .section-F-general-box {
         margin-top: -7%;
     }
+
     .section-F-background-img-a {
         margin-left: 10px;
         text-align: center;
         align-content: center;
-        max-width: 300px;
-
     }
+
     .section-F-background-img-b {
         margin-left: 10px;
         text-align: center;
@@ -173,26 +185,26 @@
     }
 
     .section-F-img-a{
-        height:50%;
-
+        margin-left: auto;
     }
     .section-F-img-b{
-        height:100%;
+
     }
     .section-F-img-c{
-        height:100%;
+        margin-left: auto;
+    }
 
-    }
     .section-F-img-d{
-        height:100%;
+        height: 150px;
     }
+
     .section-F-strip{
         height: 4px;
-        width: 50%;
-        margin-left: 25%;
+        width: 150px;
         border-radius: 5px;
-
+        margin: 0 auto;
     }
+
     .section-F-title-text{
         font-size: 25px;
         text-align: center;

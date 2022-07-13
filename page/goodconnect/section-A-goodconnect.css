@@ -1,7 +1,5 @@
 
 @media screen and (min-width:  1024px){
-
-
     .section-A-goodConnect{
         display: flex;
         justify-content: center;
@@ -21,7 +19,8 @@
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
-    .section-A-goodConnect-1{
+
+    .section-A-goodConnect{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,7 +39,7 @@
 }
 @media screen and (max-width: 639px){
 
-    .section-A-goodConnect-1{
+    .section-A-goodConnect{
         display: flex;
         justify-content: center;
         align-items: center;
