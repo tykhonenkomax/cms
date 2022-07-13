@@ -1,5 +1,9 @@
 @media screen and (min-width: 1024px){
 
+    .cms-row + .cms-row {
+        margin-top: 0;
+    }
+
     .wrapper{
         flex-wrap: wrap;
         display: flex;
@@ -24,18 +28,20 @@
     }
 
     .section-F-img-a-services{
-        height:200px;
-
+        max-width: 190px;
+        margin: 0 0 0 auto;
     }
     .section-F-img-b-services{
-        height:200px;
+        max-width: 190px;
+        margin: 8px 0 0 0;
     }
     .section-F-img-c-services{
-        height:200px;
+        max-width: 180px;
+        margin: 0 0 0 auto;
 
     }
     .section-F-img-d-services{
-        height:200px;
+        max-width: 200px;
     }
     .section-F-strip-services{
         height: 4px;
@@ -76,6 +82,9 @@
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
+    .cms-row + .cms-row {
+        margin-top: 1rem;
+    }
     .wrapper{
 
         flex-wrap: wrap;
@@ -101,18 +110,22 @@
     }
 
     .section-F-img-a-services{
-        height:200px;
+        max-width: 200px;
+        margin: 0 0 0 auto;
 
     }
     .section-F-img-b-services{
-        height:200px;
+        max-width: 200px;
+        margin: 8px 0 0 0;
     }
     .section-F-img-c-services{
-        height:200px;
+        max-width: 180px;
+        margin: 0 0 0 auto;
 
     }
     .section-F-img-d-services{
-        height:200px;
+        max-width: 200px;
+
     }
     .section-F-strip-services{
         height: 4px;
@@ -152,6 +165,10 @@
     }
 }
 @media screen and (max-width: 639px){
+    .cms-row + .cms-row {
+        margin-top: 0;
+    }
+
     .cms-row-mobile-devises{
         flex-direction: row;
     }
@@ -189,6 +206,7 @@
         margin-left: auto;
     }
     .section-F-img-b-services{
+        margin: 6px 0 0 0;
     }
     .section-F-img-c-services{
         margin-left: auto;
