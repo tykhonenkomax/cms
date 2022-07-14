@@ -1,0 +1,142 @@
+
+@media screen and (min-width:  1024px) {
+    .background-section-D-goodDesign{
+        background-image: url(../gooddesign/media/monitor-mobile:laotop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+.section-D-goodDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+    .section-D-title-text{
+        font-size: 25px;
+        color: var(--c-ultra-grey);
+        font-family: var(--c-Montserrat);
+        word-spacing: 10px;
+        text-wrap: normal;
+    }
+    .sector-D-description-text{
+        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-family: var(--c-Montserrat);
+        text-wrap: normal;
+    }
+
+    .button-section-D-goodDesign-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+    }
+    .button-section-D-goodDesign-2{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-left: 20px;
+    }
+    .button-D-general{
+        display: flex;
+
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+
+    .section-D-goodDesign{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .section-D-title-text{
+        font-size: 25px;
+        color: var(--c-ultra-grey);
+        font-family: var(--c-Montserrat);
+        word-spacing: 10px;
+        text-wrap: normal;
+    }
+    .sector-D-description-text{
+        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-family: var(--c-Montserrat);
+        text-wrap: normal;
+    }
+
+    .button-section-D-goodDesign-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+    }
+    .button-section-D-goodDesign-2{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-left: 20px;
+    }
+    .button-D-general{
+        display: flex;
+
+    }
+}
+@media screen and (max-width: 639px){
+
+
+    .section-D-goodDesign{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .section-D-title-text{
+        font-size: 25px;
+        color: var(--c-ultra-grey);
+        font-family: var(--c-Montserrat);
+        word-spacing: 10px;
+        text-wrap: normal;
+    }
+    .sector-D-description-text{
+        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-family: var(--c-Montserrat);
+        text-wrap: normal;
+    }
+
+    .button-section-D-goodDesign-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 177px;
+        text-transform: lowercase;
+    }
+    .button-section-D-goodDesign-2{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 177px;
+        text-transform: lowercase;
+        margin-left: 10px;
+    }
+    .button-D-general{
+        display: flex;
+
+    }
+
+}

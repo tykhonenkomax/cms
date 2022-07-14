@@ -1,0 +1,61 @@
+
+@media screen and (min-width:  1024px){
+
+    .background-section-C-goodDesign{
+        margin: 5px;
+    }
+    .background-section-C-goodDesign-1{
+        background-color: #e5ebf2;
+        min-height: 610px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .background-section-C-goodDesign-2{
+        background-image: url(../gooddesign/media/girls_desktop.jpg);
+        min-height: 595px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+@media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .background-section-C-goodDesign{
+        margin: 5px;
+    }
+    .background-section-C-goodDesign-1{
+        background-color: #e5ebf2;
+        min-height: 610px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .background-section-C-goodDesign-2{
+        background-image: url(../gooddesign/media/girls_ipad.jpg);
+        min-height: 595px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+@media screen and (max-width: 639px){
+
+    .background-section-C-goodDesign{
+        margin: 5px;
+    }
+    .background-section-C-goodDesign-1{
+        background-color: #e5ebf2;
+        min-height: 610px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .background-section-C-goodDesign-2{
+        background-image: url(../gooddesign/media/girls_mobile.jpg);
+        min-height: 595px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}

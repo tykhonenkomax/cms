@@ -2,7 +2,7 @@
 @media screen and (min-width:  1024px){
     .background-section-D-goodConnect{
         background-image: url(../goodconnect/media/5.png);
-        height: 886px;
+        max-height: 986px;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -81,7 +81,7 @@
 @media screen and (min-width:  640px) and (max-width: 1023px) {
     .background-section-D-goodConnect{
         background-image: url(../goodconnect/media/5.png);
-        height: 886px;
+        max-height: 886px;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -135,6 +135,7 @@
         display: flex;
         justify-content: start;
         align-items: center;
+
     }
 
     .button-box-section-D{
@@ -160,7 +161,7 @@
 @media screen and (max-width: 639px){
     .background-section-D-goodConnect{
         background-image: url(../goodconnect/media/5.png);
-        height: 886px;
+        max-height: 886px;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;

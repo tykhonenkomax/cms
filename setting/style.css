@@ -78,6 +78,9 @@
     --c_color-grey:#898A8A;
     --c-grey:var(--c_color-grey);
 
+    --c_color-ultra-grey:#707070;
+    --c-ultra-grey:var(--c_color-ultra-grey);
+
     --с-light-grey-dark: #d3d3d3;
     --c-light-grey:var(--с-light-grey-dark);
 
@@ -91,11 +94,125 @@
     --c_letter-color:#616363;
     --c-letter-green-grey:var(--c_letter-color);
 
-    --c_background-light-grey:#dbdbdb;
-    --c_background-light-grey: var(--c_background-light-grey);
+    --c_background-light-light-grey:#dbdbdb;
+    --c_background-light-grey: var(--c_background-light-light-grey);
+
 
 }
 
+.sf-button-white {
+    --link-color: var(--button-color,var(--c-light-variant));
+    box-sizing: border-box;
+    position: relative;
+    width: var(--button-width);
+    width: var(--button-size, var(--button-width));
+    height: var(--button-height);
+    height: var(--button-size, var(--button-height));
+    display: flex;
+    display: var(--button-display, flex);
+    align-items: center;
+    justify-content: center;
+    padding: var(--button-padding,var(--spacer-sm) var(--spacer-base));
+    color: var(--c-light-variant);
+    color: var(--button-color,var(--c-light-variant));
+    background: var(--c-primary);
+    background: var(--button-background,var(--c-primary));
+    transition: background .8s;
+    transition: var(--button-transition, background .8s);
+
+    background-position: 50%;
+    text-transform: uppercase;
+    text-transform: var(--button-text-transform, uppercase);
+    text-decoration: none;
+    -webkit-text-decoration: var(--button-text-decoration);
+    text-decoration: var(--button-text-decoration);
+    cursor: pointer;
+    cursor: var(--button-cursor, pointer);
+    border-radius: 0;
+    border-radius: var(--button-border-radius, 0);
+    white-space: nowrap;
+    white-space: var(--button-wrap,nowrap);
+    font: var(--font-weight--semibold) var(--font-size--base)/1.2 var(--font-family--secondary);
+    font: var(--button-font, var(--button-font-weidht, var(--font-weight--semibold)) var(--button-font-size, var(--font-size--base))/var(--button-font-line-height, 1.2) var(--button-font-family, var(--font-family--secondary)));
+    border: var(--button-border, var(--button-border-style, solid) var(--button-border-color, var(--c-white)));
+    border-width: 0;
+    border-width: var(--button-border-width,0);
+    --button-box-shadow-opacity: 0;
+}
+
+.sf-button--outline-white {
+    --button-border-width: 1px;
+    --button-color: var(--c-text);
+}
+.sf-button--outline-white {
+    --button-border-width: 1px;
+    --button-color: var(--c-text);
+}
+
+.sf-button--outline-white, .sf-button--outline-white:hover {
+    --button-background: white;
+}
 
 
+.sf-button-white {
+    --button-padding: var(--spacer-sm) var(--spacer-lg);
+}
 
+
+.sf-button {
+    --link-color: var(--button-color,var(--c-light-variant));
+    box-sizing: border-box;
+    position: relative;
+    width: var(--button-width);
+    width: var(--button-size, var(--button-width));
+    height: var(--button-height);
+    height: var(--button-size, var(--button-height));
+    display: flex;
+    display: var(--button-display, flex);
+    align-items: center;
+    justify-content: center;
+    padding: var(--button-padding,var(--spacer-sm) var(--spacer-base));
+    color: var(--c-light-variant);
+    color: var(--button-color,var(--c-light-variant));
+    background: var(--c-primary);
+    background: var(--button-background,var(--c-primary));
+    transition: background .8s;
+    transition: var(--button-transition, background .8s);
+
+    background-position: 50%;
+    text-transform: uppercase;
+    text-transform: var(--button-text-transform, uppercase);
+    text-decoration: none;
+    -webkit-text-decoration: var(--button-text-decoration);
+    text-decoration: var(--button-text-decoration);
+    cursor: pointer;
+    cursor: var(--button-cursor, pointer);
+    border-radius: 0;
+    border-radius: var(--button-border-radius, 0);
+    white-space: nowrap;
+    white-space: var(--button-wrap,nowrap);
+    font: var(--font-weight--semibold) var(--font-size--base)/1.2 var(--font-family--secondary);
+    font: var(--button-font, var(--button-font-weidht, var(--font-weight--semibold)) var(--button-font-size, var(--font-size--base))/var(--button-font-line-height, 1.2) var(--button-font-family, var(--font-family--secondary)));
+    border: var(--button-border, var(--button-border-style, solid) var(--button-border-color, var(--c-primary)));
+    border-width: 0;
+    border-width: var(--button-border-width,0);
+    --button-box-shadow-opacity: 0;
+}
+
+.sf-button--outline {
+    --button-border-width: 1px;
+    --button-color: var(--c-white);
+}
+.sf-button--outline-white {
+    --button-border-width: 1px;
+    --button-color: var(--c-text);
+}
+
+.sf-button--outline, .sf-button--outline:hover {
+    --button-background: transparent;
+}
+
+
+.sf-button {
+    --button-padding: var(--spacer-sm) var(--spacer-lg);
+}
