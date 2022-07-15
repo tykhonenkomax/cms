@@ -1,9 +1,171 @@
 
 @media screen and (min-width:  1024px){
+
+    .cms-20-desktop-screens{
+        flex: .20;
+    }
+    .background-section-E-a-goodMill{
+        background-color: #9fb0ac;
+        width: 459px;
+        height: 411px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-E-a-goodMill-title-text{
+        font-size: 45px;
+        color: var(--c-white);
+        text-align: center;
+        font-family: var(--c_font-Montserrat);
+
+    }
+    .section-E-a-goodMill-description-text{
+        font-size: 15px;
+        color: var(--c-letter-green-grey);
+        text-align: center;
+        font-family: var(--c_font-Montserrat);
+        text-wrap: normal;
+    }
+    .section-E-strip{
+        background-color: #666666;
+        height: 4px;
+        width: 140px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .button-section-E-goodMill-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+
+    }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
+   .cms-row-laptop-screens{
+       flex-direction: column;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+    .section-E-goodMill{
+        background-image: url(../goodmill/media/punkte_grün_edited.png);
+        background-position: center;
+    }
+
+    .cms-20-desktop-screens{
+        flex: .20;
+    }
+    .background-section-E-a-goodMill{
+        margin-top: 20px;
+        background-color: #9fb0ac;
+        width: 459px;
+        height: 411px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-E-a-goodMill-title-text{
+        font-size: 60px;
+        color: var(--c-white);
+        text-align: center;
+        font-family: var(--c_font-Montserrat);
+    }
+    .section-E-a-goodMill-description-text{
+        font-size: 15px;
+        color: var(--c-letter-green-grey);
+        text-align: center;
+        font-family: var(--c_font-Montserrat);
+        text-wrap: normal;
+    }
+    .section-E-strip{
+        background-color: #666666;
+        height: 4px;
+        width: 150px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .button-section-E-goodMill-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-bottom: 20px;
+
+    }
 }
 @media screen and (max-width: 639px){
 
+
+    .cms-row-laptop-screens{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-E-goodMill{
+        background-image: url(../goodmill/media/punkte_grün_edited.png);
+        background-position: center;
+    }
+
+    .cms-20-desktop-screens{
+        flex: .20;
+    }
+
+    .background-section-E-a-goodMill{
+        margin-top: 20px;
+        background-color: #9fb0ac;
+        width: 375px;
+        height: 411px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-E-a-goodMill-title-text{
+        font-size: 60px;
+        color: var(--c-white);
+        text-align: center;
+        font-family: var(--c_font-Montserrat);
+    }
+    .section-E-a-goodMill-description-text{
+        font-size: 15px;
+        color: var(--c-letter-green-grey);
+        text-align: center;
+        font-family: var(--c_font-Montserrat);
+        text-wrap: normal;
+    }
+    .section-E-strip{
+        background-color: #666666;
+        height: 4px;
+        width: 150px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .button-section-E-goodMill-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-bottom: 20px;
+
+    }
 }

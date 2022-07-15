@@ -5,6 +5,7 @@
 .cms-100, .cms-50-xlarge-screens .cms-50-desktop-screens .cms-50-laptops-screens .cms-50-iPads-tablets .cms-50-mobile-devises,
 .cms-33-xlarge-screens .cms-33-desktop-screens .cms-33-laptops-screens .cms-33-iPads-tablets .cms-33-mobile-devises,
 .cms-25-xlarge-screens .cms-25-desktop-screens .cms-25-laptops-screens .cms-25-iPads-tablets .cms-25-mobile-devises,
+.cms-20-xlarge-screens .cms-20-desktop-screens .cms-20-laptops-screens .cms-20-iPads-tablets .cms-20-mobile-devises,
 .cms-66-xlarge-screens .cms-66-desktop-screens .cms-66-laptops-screens .cms-66-iPads-tablets .cms-66-mobile-devises,
 .cms-0 {
     display: flex;
@@ -70,9 +71,12 @@
 .cms-25-xlarge-screens .cms-25-desktop-screens .cms-25-laptops-screens .cms-25-iPads-tablets .cms-25-mobile-devises {
     width: calc((100% -  1rem) / 4);
 }
+.cms-20-xlarge-screens .cms-20-desktop-screens .cms-20-laptops-screens .cms-20-iPads-tablets .cms-20-mobile-devises {
+    width: calc((100% -  1rem) / 5);
+}
 
 @media screen and (max-width: 640px) {
-    .cms-100, .cms-50, .cms-33, .cms-25, .cms-66, .cms-0 {
+    .cms-100, .cms-50, .cms-33, .cms-25, .cms-20, .cms-66, .cms-0 {
         flex: 1;
         width: 100%;
         margin-left: 0 !important;
@@ -93,7 +97,7 @@
         flex-direction: column;
     }
 
-    .cms-col-ipad .cms-50, .cms-col-ipad .cms-33, .cms-col-ipad .cms-25,  .cms-col-ipad .cms-66,  .cms-col-ipad .cms-0, .cms-col-ipad .cms-100 {
+    .cms-col-ipad .cms-50, .cms-col-ipad .cms-33, .cms-col-ipad .cms-25, .cms-col-ipad .cms-20,  .cms-col-ipad .cms-66,  .cms-col-ipad .cms-0, .cms-col-ipad .cms-100 {
         margin-left: 0;
         flex: 1
     }

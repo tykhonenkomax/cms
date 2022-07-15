@@ -1,9 +1,164 @@
 
 @media screen and (min-width:  1024px){
+
+    .background-section-D-goodMill{
+        background-image: url(../goodmill/media/hand-modif.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    .section-D-goodMill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .section-D-title-text{
+        margin-top: 100px;
+        font-size: 25px;
+        color: var(--c-ultra-grey);
+        font-family: var(--c-Montserrat);
+        word-spacing: 10px;
+        text-wrap: normal;
+    }
+    .sector-D-description-text{
+        margin-top: 30px;
+        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-family: var(--c-Montserrat);
+        text-wrap: normal;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .button-section-D-goodMill-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+    }
+    .button-section-D-goodMill-2{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    .button-D-general{
+        display: flex;
+
+    }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
+    .background-section-D-goodMill{
+        background-image: url(../goodmill/media/hand-modif.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    .section-D-goodMill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .section-D-title-text{
+        margin-top: 100px;
+        font-size: 25px;
+        color: var(--c-ultra-grey);
+        font-family: var(--c-Montserrat);
+        word-spacing: 10px;
+        text-wrap: normal;
+    }
+    .sector-D-description-text{
+        margin-top: 30px;
+        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-family: var(--c-Montserrat);
+        text-wrap: normal;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .button-section-D-goodMill-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+    }
+    .button-section-D-goodMill-2{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    .button-D-general{
+        display: flex;
+
+    }
 }
 @media screen and (max-width: 639px){
 
+    .section-D-goodMill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .section-D-title-text{
+        margin-top: 100px;
+        font-size: 25px;
+        color: var(--c-ultra-grey);
+        font-family: var(--c-Montserrat);
+        word-spacing: 10px;
+        text-wrap: normal;
+        text-align: center;
+    }
+    .sector-D-description-text{
+        margin-top: 30px;
+        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-family: var(--c-Montserrat);
+        text-wrap: normal;
+        line-height: 40px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .button-section-D-goodMill-1{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+    }
+    .button-section-D-goodMill-2{
+        font-family: var(--c-Montserrat);
+        color: var(--c-letter-green-grey);
+        font-size: 16px;
+        height: 46px;
+        width: 187px;
+        text-transform: lowercase;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    .button-D-general{
+        display: flex;
+
+    }
 }
