@@ -77,7 +77,8 @@
     .background-section-E-goodConnect{
         margin-top: 50px;
         background-color: rgb(233 161 161);
-        max-height: 700px;
+        max-height: 100%;
+        max-width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -94,6 +95,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         margin-bottom: 100px;
     }
     .section-E-goodConnect-2-a{
@@ -142,9 +144,10 @@
     }
 
     .background-section-E-goodConnect{
-        margin-top: 30px;
+        margin-top: 50px;
         background-color: rgb(233 161 161);
-        height: 700px;
+        max-height: 100%;
+        max-width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -170,20 +173,20 @@
         height: 171px;
     }
     .section-E-goodConnect-img-1{
-        margin-top: 58px;
-        height: 207px;
+       max-width: 60%;
+
     }
     .section-E-goodConnect-img-2{
-        margin-top: 50px;
-        height: 207px;
+        max-width: 90%;
     }
     .section-E-title-text{
-        margin-top: 80px;
+        margin-top: 45px;
         font-size: 25px;
         font-family: var(--c-Montserrat);
         color: #707070;
         line-height:50px;
         word-spacing:10px;
+        text-align: center;
     }
     .section-E-goodConnect-3{
         margin-top: 50px;
@@ -199,7 +202,12 @@
         background: #616363;
         font-family: var(--c-Montserrat);
         color: var(--c-white);
-        font-size: 16px;
+        font-size: 16px
+
     }
+    .cms-row-mobile-devises{
+        flex-direction: column;
+    }
+
 
 }

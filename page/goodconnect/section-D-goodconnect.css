@@ -1,239 +1,192 @@
 
 @media screen and (min-width:  1024px){
+
     .background-section-D-goodConnect{
         background-image: url(../goodconnect/media/5.png);
-        max-height: 986px;
+        min-height: 595px;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
     }
+
+    .section-D-goodConnect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .section-D-goodConnect-1{
         display: flex;
-        justify-content: center;
         align-items: center;
+        text-align: start;
+        justify-content: center;
+        margin: 20px auto;
     }
+.section-D-title-text{
+ font-family: var(--c-Montserrat);
+    font-size: 30px;
+    color: #707070;
+}
     .redLetter{
-        color: darkred;
-    }
-    .section-D-title-text{
-        font-size: 30px;
-        font-family: var(--c-Montserrat);
-        color: #707070;
-    }
-    .section-D-goodConnect-2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+color: darkred;
     }
     .section-D-description-text{
-        font-size: 16px;
         font-family: var(--c-Montserrat);
+        font-size: 16px;
+        color: #707070;
+        text-align: start;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    .sector-D-title-text-1{
+        font-family: var(--c-Montserrat);
+        font-size: 16px;
         color: #707070;
     }
-    .section-D-description-text-1{
-        font-size: 16px;
+    .sector-D-description-text-1{
         font-family: var(--c-Montserrat);
+        font-size: 16px;
         color: #707070;
         text-wrap: normal;
     }
-    .section-D-title-text-1{
-        margin-top: 16px;
-        font-size: 25px;
-        font-family: var(--c-Montserrat);
-        color: #707070;
-        line-height:50px
+    .section-D-img{
+        height: 65px;
+        text-align: start;
+        margin-right: 15px;
     }
-    .section-D-goodConnect-img-1{
-        height: 100px;
-    }
-    .section-D-goodConnect-3{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin-top: 50px;
-    }
-    .slider_section-D{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-
-    .button-box-section-D{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-    }
-    .button-section-D-services{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        height: 64px;
-        width: 187px;
-        border-radius: 0;
-        background: #FFFFFF;
-        font-family: var(--c-Montserrat);
-        color: var(--c-green-middle-dark);
-        font-size: 16px;
+.margin-left{
+    margin-left: 43px;
+}
+    .margin-left2{
+        margin-left: 50px;
     }
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
+
+    .cms-row-laptop-screens{
+        flex-direction: column;
+    }
+
     .background-section-D-goodConnect{
         background-image: url(../goodconnect/media/5.png);
-        max-height: 886px;
+        min-height: 595px;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
     }
-    .section-D-goodConnect-1{
+
+    .section-D-goodConnect{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .section-D-goodConnect-1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section-D-title-text{
+        font-family: var(--c-Montserrat);
+        font-size: 30px;
+        color: #707070;
     }
     .redLetter{
         color: darkred;
     }
-    .section-D-title-text{
-        font-size: 30px;
+    .section-D-description-text{
         font-family: var(--c-Montserrat);
+        font-size: 16px;
         color: #707070;
+        text-wrap: normal;
+        margin-top: 20px;
+        line-height: 30px;
     }
-    .section-D-goodConnect-2{
+    .sector-D-title-text-1{
+        text-wrap: normal;
+        font-family: var(--c-Montserrat);
+        font-size: 16px;
+        color: #707070;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 10px;
     }
-    .section-D-description-text{
-        font-size: 16px;
+    .sector-D-description-text-1{
         font-family: var(--c-Montserrat);
-        color: #707070;
-    }
-    .section-D-description-text-1{
         font-size: 16px;
-        font-family: var(--c-Montserrat);
         color: #707070;
         text-wrap: normal;
     }
-    .section-D-title-text-1{
-        margin-top: 16px;
-        font-size: 25px;
-        font-family: var(--c-Montserrat);
-        color: #707070;
-        line-height:50px
-    }
-    .section-D-goodConnect-img-1{
-        height: 100px;
-    }
-    .section-D-goodConnect-3{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin-top: 50px;
-    }
-    .slider_section-D{
-        display: flex;
-        justify-content: start;
-        align-items: center;
+    .section-D-img{
+        height: 65px;
+        text-align: start;
 
     }
 
-    .button-box-section-D{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-    }
-    .button-section-D-services{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        height: 64px;
-        width: 187px;
-        border-radius: 0;
-        background: #FFFFFF;
-        font-family: var(--c-Montserrat);
-        color: var(--c-green-middle-dark);
-        font-size: 16px;
-    }
 }
 @media screen and (max-width: 639px){
+    .cms-row-laptop-screens{
+        flex-direction: column;
+    }
+
     .background-section-D-goodConnect{
         background-image: url(../goodconnect/media/5.png);
-        max-height: 886px;
+        min-height: 595px;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
     }
-    .section-D-goodConnect-1{
+
+    .section-D-goodConnect{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .section-D-goodConnect-1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section-D-title-text{
+        font-family: var(--c-Montserrat);
+        font-size: 30px;
+        color: #707070;
+        text-align: center;
     }
     .redLetter{
         color: darkred;
     }
-    .section-D-title-text{
-        font-size: 30px;
+    .section-D-description-text{
         font-family: var(--c-Montserrat);
+        font-size: 16px;
         color: #707070;
+        text-wrap: normal;
+        margin-top: 20px;
+        line-height: 30px;
     }
-    .section-D-goodConnect-2{
+    .sector-D-title-text-1{
+        text-wrap: normal;
+        font-family: var(--c-Montserrat);
+        font-size: 16px;
+        color: #707070;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 10px;
     }
-    .section-D-description-text{
-        font-size: 16px;
+    .sector-D-description-text-1{
         font-family: var(--c-Montserrat);
-        color: #707070;
-    }
-    .section-D-description-text-1{
         font-size: 16px;
-        font-family: var(--c-Montserrat);
         color: #707070;
         text-wrap: normal;
     }
-    .section-D-title-text-1{
-        margin-top: 16px;
-        font-size: 25px;
-        font-family: var(--c-Montserrat);
-        color: #707070;
-        line-height:50px
-    }
-    .section-D-goodConnect-img-1{
-        height: 100px;
-    }
-    .section-D-goodConnect-3{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin-top: 50px;
-    }
-    .slider_section-D{
-        display: flex;
-        justify-content: start;
-        align-items: center;
+    .section-D-img{
+        height: 65px;
+        text-align: start;
+
     }
 
-    .button-box-section-D{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-    }
-    .button-section-D-services{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        height: 64px;
-        width: 187px;
-        border-radius: 0;
-        background: #FFFFFF;
-        font-family: var(--c-Montserrat);
-        color: var(--c-green-middle-dark);
-        font-size: 16px;
-    }
 }

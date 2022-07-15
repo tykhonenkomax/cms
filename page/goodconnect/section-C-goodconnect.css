@@ -32,9 +32,19 @@
     }
 }
 @media screen and (max-width: 639px){
+
     .background-section-C-goodConnect{
         background-color: rgb(233 161 161);
 
+    }
+
+    .section-C-goodConnect-img-1{
+        width: 80%;
+    }
+    .section-C-goodConnect-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .section-C-goodConnect{
         display: flex;
