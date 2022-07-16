@@ -38,9 +38,11 @@
         min-height: 207px;
     }
     .section-E-goodConnect-img-2{
-        margin-top: 50px;
+        margin-top: 60px;
         min-height: 207px;
+        margin-left: -34px;
     }
+
     .section-E-title-text{
         margin-top: 80px;
         font-size: 25px;
@@ -58,13 +60,13 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        margin: 0 auto 15px;
         height: 64px;
         width: 187px;
         border-radius: 0;
-        background: #616363;
         font-family: var(--c-Montserrat);
-        color: var(--c-white);
-        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-size: 16px
     }
 
 
@@ -100,13 +102,14 @@
     }
     .section-E-goodConnect-2-a{
         height: 171px;
+
     }
     .section-E-goodConnect-2-b{
         height: 171px;
     }
     .section-E-goodConnect-img-1{
-        margin-top: 58px;
         height: 207px;
+
     }
     .section-E-goodConnect-img-2{
         margin-top: 50px;
@@ -128,17 +131,18 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        margin: 0 auto 15px;
         height: 64px;
         width: 187px;
         border-radius: 0;
-        background: #616363;
         font-family: var(--c-Montserrat);
-        color: var(--c-white);
-        font-size: 16px;
+        color: var(--c-letter-green-grey);
+        font-size: 16px
     }
 
 }
 @media screen and (max-width: 639px){
+
     .wrapper{
         flex-wrap: wrap;
     }
@@ -147,13 +151,9 @@
         margin-top: 50px;
         background-color: rgb(233 161 161);
         max-height: 100%;
-        max-width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .section-E-goodConnect{
         display: flex;
@@ -164,7 +164,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 100px;
     }
     .section-E-goodConnect-2-a{
         height: 171px;
@@ -174,10 +173,11 @@
     }
     .section-E-goodConnect-img-1{
        max-width: 60%;
-
+        margin: 0 auto;
     }
     .section-E-goodConnect-img-2{
         max-width: 90%;
+        margin: 0 auto;
     }
     .section-E-title-text{
         margin-top: 45px;
@@ -187,6 +187,7 @@
         line-height:50px;
         word-spacing:10px;
         text-align: center;
+
     }
     .section-E-goodConnect-3{
         margin-top: 50px;
@@ -196,12 +197,12 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        margin: 0 auto 15px;
         height: 64px;
         width: 187px;
         border-radius: 0;
-        background: #616363;
         font-family: var(--c-Montserrat);
-        color: var(--c-white);
+        color: var(--c-letter-green-grey);
         font-size: 16px
 
     }

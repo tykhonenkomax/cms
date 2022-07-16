@@ -2,6 +2,7 @@
 @media screen and (min-width:  1024px){
     .background-section-C-goodConnect{
         background-color: rgb(233 161 161);
+        max-width: 100%;
 
     }
     .section-C-goodConnect{
