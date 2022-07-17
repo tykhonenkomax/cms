@@ -48,7 +48,7 @@
         background: var(--c_color-white);
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 550px;
+        min-height: 450px;
         background-size: cover;
         position: relative;
         z-index: 100;
@@ -107,7 +107,7 @@
 
     }
     .section-C-img-2{
-        height: 202px;
+        height:180px;
         position: absolute;
         margin-left: 50px;
     }

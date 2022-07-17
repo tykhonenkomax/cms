@@ -19,11 +19,17 @@
         justify-content: center;
         align-content: center;
     }
-    .section-M-title-text-uniform{
+
+    .section-M-title-text-uniform-1{
+display: none;
+    }
+    .section-M-title-text-uniform-2{
         font-family: var(--c_font-Montserrat);
         font-size: 45px;
         color: var(--c-green-middle-light);
     }
+
+
     .section-M-description-text-uniform{
         font-family: var(--c_font-Montserrat);
         font-size: 16px;
@@ -33,24 +39,30 @@
 @media screen and (min-width:  640px) and (max-width: 1023px) {
 
     .background-section-M-uniForm{
-        height: 724px;
+        height: 100%;
         background-color: #FFFFFF;
         display: flex;
 
     }
     .background-section-M-uniForm-1{
-        justify-content: center;
-        align-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .img{
         height: 369px;
         width: 228px;
     }
-    .section-M-title-text-uniform{
+
+    .section-M-title-text-uniform-1{
         font-family: var(--c_font-Montserrat);
         font-size: 45px;
         color: var(--c-green-middle-light);
+
     }
+    .section-M-title-text-uniform-2{
+        display: none;
+    }
+
     .section-M-description-text-uniform{
         font-family: var(--c_font-Montserrat);
         font-size: 16px;
@@ -59,15 +71,30 @@
 }
 @media screen and (max-width: 639px){
     .background-section-M-uniForm{
-        height: 724px;
+        height: 100%;
         background-color: #FFFFFF;
         display: flex;
 
-
     }
     .background-section-M-uniForm-1{
-        justify-content: center;
-        align-content: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .img{
+        height: 369px;
+        width: 228px;
+    }
+
+    .section-M-title-text-uniform-1{
+        font-family: var(--c_font-Montserrat);
+        font-size: 35px;
+        color: var(--c-green-middle-light);
+
+    }
+    .section-M-title-text-uniform-2{
+        display: none;
+
     }
     .img{
         height: 269px;

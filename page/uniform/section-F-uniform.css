@@ -42,16 +42,12 @@
         justify-content: center;
         align-items: center;
     }
-    .section-F-uniForm-2{
-        display: flex;
-        justify-content: center;
-        align-items: start;
-    }
+
     .section-F-title-text-uniform {
         color: var(--c-white);
         font-family: var(--c_font-Montserrat);
         font-size: 25px;
-        text-align: start;
+        text-align: center;
     }
     .section-F-description-uniform {
         color: var(--c-white);
@@ -65,11 +61,11 @@
     }
     .background-section-F-uniForm {
         background-color: var(--c_green-middle--light);
-        height: 800px;
+        height: 100%;
         display: flex;
     }
     .section-F-uniForm-img-1{
-
+        width: 60%;
     }
     .section-F-uniForm-1{
         display: flex;
@@ -78,18 +74,18 @@
     }
     .section-F-uniForm-2{
         display: flex;
-        justify-content: center;
-        align-items: start;
+        align-items: center;
     }
     .section-F-title-text-uniform {
         color: var(--c-white);
         font-family: var(--c_font-Montserrat);
         font-size: 25px;
-        text-align: start;
+
     }
     .section-F-description-uniform {
         color: var(--c-white);
         font-family: var(--c_font-Montserrat);
-        font-size: 13px;
+        font-size: 16px;
+        margin: 20px auto 20px 20px;
     }
 }

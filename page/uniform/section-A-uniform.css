@@ -81,7 +81,6 @@
 }
 @media screen and (max-width: 639px){
     .background-section-A-uniForm {
-        margin-top: 10px;
         background: var(--c-white);
         background-position: center;
         background-repeat: no-repeat;

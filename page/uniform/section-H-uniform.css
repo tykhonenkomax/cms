@@ -2,9 +2,10 @@
 @media screen and (min-width:  1024px){
 
 .background-section-H-uniForm{
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: var(--c_background-light-grey);
     height: 300px;
+    margin-bottom: 30px;
 }
     .section-H-uniform{
         width: 665px;
@@ -15,16 +16,26 @@
 }
 @media screen and (min-width:  640px) and (max-width: 1023px) {
     .background-section-H-uniForm{
-        margin-top: 20px;
+        margin-top: 30px;
         background-color: var(--c_background-light-grey);
-        height: 300px;
+        height: 100%;
+        margin-bottom: 30px;
     }
     .section-H-uniform{
         width: 565px;
         height: 154px;
-        margin-top: 100px;
+
 
     }
 }
-@media screen and (max-width: 639px){
-}
+@media screen and (max-width: 639px) {
+        .background-section-H-uniForm {
+
+            background-color: var(--c_background-light-grey);
+            height: 100%;
+        }
+
+        .section-H-uniform {
+            width: 100%;
+        }
+    }

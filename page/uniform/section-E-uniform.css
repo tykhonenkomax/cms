@@ -50,9 +50,13 @@
     }
     .background-section-E-uniForm {
         background-color: var(--c_green-middle--light);
-        height: 635px;
+        height: 100%;
         display: flex;
+        justify-content: center;
         opacity: .8;
+    }
+.section-E-uniForm-img-1{
+        width: 90%;
     }
     .section-E-uniForm-1{
         display: flex;
@@ -61,14 +65,13 @@
     }
     .section-E-uniForm-2{
         display: flex;
-        justify-content: center;
-        align-items: start;
+        align-items: center;
     }
     .section-E-title-text-uniform {
         color: var(--c-white);
         font-family: var(--c_font-Montserrat);
         font-size: 25px;
-        text-align: start;
+        text-align: center;
     }
     .section-E-description-uniform {
         color: var(--c-white);
@@ -88,23 +91,21 @@
     }
     .background-section-E-uniForm {
         background-color: var(--c_green-middle--light);
-        height: 735px;
+        height: 100%;
         display: flex;
         opacity: .8;
     }
     .section-E-uniForm-img-1{
-        width: 80%;
-    }
-    .section-E-uniForm-1{
+        width: 60%;
         display: flex;
-        justify-content: center;
         align-items: center;
     }
     .section-E-uniForm-2{
         display: flex;
-        justify-content: center;
-        align-items: start;
+        align-items: center;
     }
+
+
     .section-E-title-text-uniform {
         color: var(--c-white);
         font-family: var(--c_font-Montserrat);
@@ -114,6 +115,9 @@
     .section-E-description-uniform {
         color: var(--c-white);
         font-family: var(--c_font-Montserrat);
-        font-size: 13px;
+        font-size: 16px;
+        text-wrap: normal;
+        margin: 20px auto 20px 20px;
+
     }
 }

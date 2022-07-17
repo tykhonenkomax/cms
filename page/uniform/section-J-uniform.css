@@ -64,9 +64,9 @@
         flex-direction: column;
     }
     .background-section-J-uniForm{
-        margin-top: 80px;
+        margin-top: 50px;
         background-color: var(--c_background-light-grey);
-        height: 650px;
+        height: 100%;
         display: flex;
         background-size:cover;
     }
@@ -97,7 +97,7 @@
         border-radius: 50%;
     }
     .cms-50-desktop-screens-1{
-        margin-top: -25px;
+        margin-top: -15px;
         text-align: center;
 
     }
@@ -120,17 +120,17 @@
         flex-direction: column;
     }
     .background-section-J-uniForm{
-        margin-top: 80px;
+        margin-top: 10px;
         background-color: var(--c_background-light-grey);
-        height: 750px;
+        height: 100%;
         display: flex;
         background-size:cover;
     }
     .section-J-description-uniform-1{
-        margin-top: 50px;
         font-size: 16px;
         color: var(--c_green-middle--light);
         font-family: var(--c-Montserrat);
+        margin: 10px;
     }
     .section-J-description-uniform-2{
         font-size: 16px;
